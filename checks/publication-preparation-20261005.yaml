@@ -1,0 +1,611 @@
+- unit: reading-guide
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/reading-guide.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: understand
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/understand.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: understand
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/understand.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: setup
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/setup.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。用已读取的官方侧栏与账号菜单说明替代未采用的设置路径；区分本机版本、日志版本与当前最新版。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: setup
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/setup.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。用已读取的官方侧栏与账号菜单说明替代未采用的设置路径；区分本机版本、日志版本与当前最新版。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: first-screen
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/first-screen.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: first-screen
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/first-screen.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: first-file
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/first-file.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。复核F01八条记录、参考稿身份与依据，删去图注内多余生产说明；练习路线未变。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: first-file
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/first-file.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。复核F01八条记录、参考稿身份与依据，删去图注内多余生产说明；练习路线未变。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: materials
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/materials.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: materials
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/materials.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: task-brief
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/task-brief.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: task-brief
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/task-brief.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: models-modes
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/models-modes.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: models-modes
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/models-modes.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: permissions
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/permissions.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: permissions
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/permissions.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: running-control
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/running-control.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: running-control
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/running-control.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: results
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/results.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。核对“和 WorkBuddy 对话”按钮、Office编辑登录条件、主动保存及两张图的图文位置。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: results
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/results.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。核对“和 WorkBuddy
+    对话”按钮、Office编辑登录条件、主动保存及两张图的图文位置。 此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-system
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-system.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-system
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-system.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: continuity
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/continuity.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。核对记忆入口与新增事实关联，三种信息图不等同软件功能的固定对应。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: continuity
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/continuity.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。核对记忆入口与新增事实关联，三种信息图不等同软件功能的固定对应。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: choose
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/choose.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: choose
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/choose.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-learn
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-learn.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。核对10月5日或更晚的边界与L01新旧规定；保留事实、推断与待确认区分。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-learn
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-learn.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。核对10月5日或更晚的边界与L01新旧规定；保留事实、推断与待确认区分。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-write
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-write.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-write
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-write.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-data
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-data.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。复核P04原始输入及六份Excel；独立重算A/C口径、异常与后续变化，与参考答案一致。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-data
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-data.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。复核P04原始输入及六份Excel；独立重算A/C口径、异常与后续变化，与参考答案一致。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-present
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-present.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-present
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-present.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-think
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-think.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-think
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-think.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-coordinate
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-coordinate.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-coordinate
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-coordinate.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-reuse
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-reuse.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capability-reuse
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capability-reuse.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capstone
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capstone.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。核对C02首轮、更正及换月材料与统计、小结、安排之间的依赖；不要求用齐七种能力。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: capstone
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/capstone.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。核对C02首轮、更正及换月材料与统计、小结、安排之间的依赖；不要求用齐七种能力。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: troubleshooting
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/troubleshooting.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: troubleshooting
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/troubleshooting.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。已核对本轮差异及上下文，未新增未经依据支持的产品或效率断言。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: version-card
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/version-card.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮完整回读本单元，核对读者起点、术语首次解释、操作对象、材料先后、前置衔接和AI工作习惯。版本相关引用调整为已读官方入口；仍不声称确认最新客户端或实机兼容。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
+- unit: version-card
+  source_commit: ef5bd96eeae4620146f4bc1176e1275638a32bf0
+  paths:
+  - manuscript/version-card.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-05'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 同引擎编辑及文献/原创材料核对；不包含客户端实操、Windows/Mac或Office/WPS兼容测试、真实效率测量、真人试读及新Claude交叉审核。未重读来源不刷新日期；未取得可确认的最新客户端版本。
+  reason: 本轮对照本单元断言、已采用官方资料及原创练习输入/参考；来源日期保持其实际读取日期，仅新入口按本轮成功原页阅读采用。版本相关引用调整为已读官方入口；仍不声称确认最新客户端或实机兼容。
+    此公开提交已逐文件与本轮审阅的最终生产稿比对；正文、练习、图片、输入与审校证据字节一致，只对制作调用中的本机路径作有记录删减，不继承不可解析的旧检查提交。
