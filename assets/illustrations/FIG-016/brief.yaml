@@ -1,0 +1,50 @@
+kind: concept
+form: comparison
+reader_question: 三份材料都讲同一场会议，应该怎样分别使用？
+takeaway: 较新的讨论不自动替代已确认安排，先分清每份材料在本次任务中的作用。
+source_sections:
+- 三份材料，分别说明了什么
+- 先请它说明实际读取情况
+- 写通知前，最后确认两件事
+placement: 三份材料，分别说明了什么
+composition: 三行并列，每行是左侧一份材料纸片，向右指向一个用途圈注，共六个主对象。第一行左写10月6日和现行说明，右写采用本次安排；第二行左写9月30日和旧通知，右写比较与参考；第三行左写10月7日和未确认备忘，右写不作正式依据。每份材料的日期与名称分两行，同为大字；三行之间不连线，不画时间推进箭头，不把第三行涂黑或打删除叉。图内只有这三对文字，不能加会议时刻、地点、人物姓名或长文件名。
+  所有核心标签至少58px，只有title和labels可以写入图内，不画caption、alt、编号、图例或额外小字。固定notebook-pen-v1方格纸与黑色中性笔，只用黑白中性灰；不画软件窗口、菜单或仿真按钮。
+content_guard: 日期和用途均来自本书F02虚构材料；不能把10月7日备忘画成新正式版，也不能把未确认理解为已否决或该文件应删除。旧通知仍可比较变化和参考表达，不画成完全无用。采用范围仅这一次例会，不能画成以后每周都改。
+text_roles:
+  current:
+    role: author
+  adopt:
+    role: author
+  old:
+    role: author
+  compare:
+    role: author
+  pending:
+    role: author
+  withhold:
+    role: author
+structure:
+  nodes:
+  - current
+  - adopt
+  - old
+  - compare
+  - pending
+  - withhold
+  edges:
+  - - current
+    - adopt
+  - - old
+    - compare
+  - - pending
+    - withhold
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: fc08d343e3313332d112e9b97ed6610006492eee8e0137c6006b596d73a1ccff
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 这组材料最容易混淆的是日期较新与安排已经确认的关系。三份有日期的材料对照各自用途，能直接解释为什么不能把备忘覆盖正式说明。
+  benefit: 读者判断的是确认状态及适用范围，能给不同材料分配采用、参考和待确认的用途。
+labels:
+  zh-CN: labels.zh-CN.yaml

@@ -1,0 +1,62 @@
+kind: concept
+form: scene
+reader_question: 我把工作记录交给WorkBuddy，想得到什么？
+takeaway: 把零散记录整理为状态清楚的周报草稿，再按原记录核对。
+source_sections:
+- 先看清楚，我们准备让它做什么
+placement: 第01章 认识 WorkBuddy：它能帮你完成哪些工作
+composition: 画两组同等大小、清楚可见的纸质材料：左组标题为records，下面是两张略微错开的记事纸，分别写unfinished和waiting；右组是一张整齐周报纸，标题report，两个分开的栏目写ongoing和pending，栏目下面各有两条无文字的短笔画代表内容，不能画完成打勾。左右两组之间一条从左到右的整理箭头，organize标签放在箭头上方，可把WorkBuddy和整理分两行；左右留足空间，所有中文单行最多7字。下部用一只拿笔的手和一条横向括线把左右材料联系起来，旁边写check；括线不是新的处理箭头。图是工作场景示意，纸片要有实际纸张感；纸底格距保持参考母版。首图在开头第二段之后，早于首个小节。
+  固定notebook-pen-v1细方格纸与黑色中性笔，不透明且只用黑白中性灰。只把title与labels写进图里，禁止caption、alt、编号、版本声明或额外小字。核心标签至少58px，标题约85px，不用密集装饰，不画任何软件窗口或按钮。
+content_guard: 这是作者案例示意，不是实测产物；右侧必须标草稿，不能暗示已有成果可免核对交付。半成品仍为进行中，等回复仍是待人回应；不捏造时间节省倍数。此图不教文件按钮、保存操作或软件真实界面。
+text_roles:
+  records:
+    role: author
+  unfinished:
+    role: author
+  waiting:
+    role: author
+  organize:
+    role: author
+  report:
+    role: author
+  ongoing:
+    role: author
+  pending:
+    role: author
+  check:
+    role: author
+structure:
+  nodes:
+  - records
+  - unfinished
+  - waiting
+  - organize
+  - report
+  - ongoing
+  - pending
+  - check
+  edges:
+  - - records
+    - organize
+  - - organize
+    - report
+  groups:
+    records:
+    - unfinished
+    - waiting
+    report:
+    - ongoing
+    - pending
+  check_scope:
+  - records
+  - report
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 84fac98275387acd2a7a840a576934487ef77566ab1af6038b53729691ec444b
+  reviewed_by: codex
+  checked_on: '2026-10-05'
+  reason: 先呈现读者熟悉的零散工作记录与整理后的周报，再解释专业术语；采用纸片与文档的具体场景对照，避开第04章练习步骤。
+  benefit: 开头就能看到要处理什么、AI帮助整理什么、人的核对仍在哪里。
+labels:
+  zh-CN: labels.zh-CN.yaml

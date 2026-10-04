@@ -1,0 +1,51 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: comparison
+reader_question: 发布一份修订索引，能直接说查找效率提高了吗？
+takeaway: 活动、产出和结果需要各自的证据，不因完成前一项就宣称后一项成立。
+source_sections:
+- 分清活动、产出和结果，才不会越写越大
+placement: 分清活动、产出和结果，才不会越写越大
+composition: 三列并排，各列由一个类别标题与一张例子卡组成，共六个文字对象。左列“活动”配“参加讨论”，中列“产出”配“发布索引”，右列“结果”配“查找更快？”。三列等高等宽，之间不画推进箭头、阶梯、增长柱或等号。第三列问号必须清晰，卡片用轻虚线轮廓表示尚缺效果证据；前两列也不加成功勾号。
+  统一 notebook-pen-v1，保留 1448×1086 不透明细方格纸和黑色中性笔。图内只渲染 title 与 labels，不渲染 caption、alt
+  或构图说明。所有核心字至少 58 px，优先 62—68 px，主标题 70 px；文字分行时只在语义处换行，不拆数字或词。四周至少留 75 px，按 358
+  px 正文宽度检查。
+content_guard: 参加讨论与发布索引是 P07 原创虚构材料中的不同事实，不画成这两次讨论直接导致索引发布。图中的查找更快是待证问题，不是测量结论。没有查找用时对照，不得去掉问号、添加提升比例、将活动产出累加为同一成果。
+  这是作者对正文方法的概念图，不是软件界面、操作实录或 WorkBuddy 已执行成果；不画按钮、成功回执、夸大效率数字或未经提供的新事实。
+text_roles:
+  activity:
+    role: author
+  activity_example:
+    role: example
+  output:
+    role: author
+  output_example:
+    role: example
+  result:
+    role: author
+  result_question:
+    role: author
+structure:
+  nodes:
+  - activity
+  - activity_example
+  - output
+  - output_example
+  - result
+  - result_question
+  edges:
+  - - activity
+    - activity_example
+  - - output
+    - output_example
+  - - result
+    - result_question
+analysis:
+  source_sha256: 777c3f04eb7b7952f1ec6a3582779984b9d8f95aaf435b6e8423765e8e585f61
+  reviewed_by: Codex（office_thinking_edit，正文全文回读与配图研究）
+  checked_on: '2026-10-04'
+  reason: 月度总结常把参加活动、交出文件与实际效果写成同一种成果；三列并排比上升阶梯更不容易暗示效果必然发生。
+  benefit: 写汇报时识别材料证明的是做过、交过还是实际产生变化，让表达与证据相称。
+labels:
+  zh-CN: labels.zh-CN.yaml

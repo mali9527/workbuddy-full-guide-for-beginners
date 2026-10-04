@@ -1,0 +1,46 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: relationship
+reader_question: 这次需要技能、专家还是连接器，它们分别补什么？
+takeaway: 按任务缺口选择一种合适帮助，不因功能多就全部添加。
+source_sections:
+- 技能：让一种处理方法可以反复使用
+- 专家：把检查角度变成具体的工作方法
+- 连接器：把外部材料接入当前任务
+- 遇到问题，先判断缺的是哪一层
+placement: 遇到问题，先判断缺的是哪一层
+composition: 中心画一份简略工作纸写task；左上、右上、下方三张不同方向的小纸签分别写skill、expert、connector。三条短的无箭头关联线连接中心与纸签，纸签之间不连接。用极简工具、视角、桥接符号辅助区分，但符号不增加文字，不画软件界面。图放在本节对照表之前，读者先看三种帮助再用表定位实际困难。
+  全系列 notebook-pen-v1：统一不透明细方格纸、黑色中性笔和中性灰。只画作者概念示意，不画软件窗口、菜单、按钮、鼠标或状态灯。图内只出现文字包 title
+  与 labels，不把图注、构图指令和风险说明画进图内。所有核心标签至少58px，标题适当放大；对象占主要画幅，保留清楚间距，按358px阅读宽度检查。
+content_guard: 不暗示任务必须同时启用三种能力，不把专家当真人背书，不把连接器画成已经授权全公司材料；连接器实际访问仍有账号与授权前提。事实不足时仍须提供依据，图中功能不能自动补足未知事实。
+text_roles:
+  task:
+    role: author
+  skill:
+    role: author
+  expert:
+    role: author
+  connector:
+    role: author
+structure:
+  nodes:
+  - task
+  - skill
+  - expert
+  - connector
+  edges:
+  - - task
+    - skill
+  - - task
+    - expert
+  - - task
+    - connector
+analysis:
+  source_sha256: 08f983802c26f40ef2815232063700ae1e708690d1306f70932a3f8312da78d9
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 技能、专家、连接器容易因位于同类扩展区域而被混为一谈；围绕一项任务展示不同帮助，可以让读者先问需要什么。
+  benefit: 遇到困难先识别缺口，避免换角色解决访问问题、安装技能代替提供事实。
+labels:
+  zh-CN: labels.zh-CN.yaml

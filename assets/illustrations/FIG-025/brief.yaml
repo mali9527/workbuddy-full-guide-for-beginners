@@ -1,0 +1,53 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: relationship
+reader_question: 怎样避免读了很多资料，仍把要求用错？
+takeaway: 围绕眼前问题找依据，再核对适用范围和决定状态。
+source_sections:
+- 从五个问题进入资料，不从“全部总结”开始
+- 比较版本，要同时看日期、对象和决定状态
+placement: 比较版本，要同时看日期、对象和决定状态
+composition: 五个主要对象。左侧上方问题便笺，左侧下方正式依据纸页；问题以短箭头指向依据。中部上下并列两张检查卡，分别是适用对象与日期、决定状态，依据分别指向两张卡。右侧一张回答纸页，两张卡的线汇入该页。仅表示回答前的两方面检查，不画软件自动检索过程。两行短标签，不增加人物、模型或额外说明。
+  统一 notebook-pen-v1，保留 1448×1086 不透明细方格纸和黑色中性笔。图内只渲染 title 与 labels，不渲染 caption、alt
+  或构图说明。所有核心字至少 58 px，优先 62—68 px，主标题 70 px；文字分行时只在语义处换行，不拆数字或词。四周至少留 75 px，按 358
+  px 正文宽度检查。
+content_guard: 正式依据不是只看文件标题；图不表示新日期自动覆盖旧版本，也不表示两条检查能取代正文中的批准权威判断。输出同时允许已知答案与待确认，不画全部问题已解决。
+  这是作者对正文方法的概念图，不是软件界面、操作实录或 WorkBuddy 已执行成果；不画按钮、成功回执、夸大效率数字或未经提供的新事实。
+text_roles:
+  question:
+    role: author
+  source:
+    role: author
+  scope:
+    role: author
+  decision:
+    role: author
+  answer:
+    role: author
+structure:
+  nodes:
+  - question
+  - source
+  - scope
+  - decision
+  - answer
+  edges:
+  - - question
+    - source
+  - - source
+    - scope
+  - - source
+    - decision
+  - - scope
+    - answer
+  - - decision
+    - answer
+analysis:
+  source_sha256: 548e609a03e75d67b59408954ec3f7033f98f089e215f34fb67ee6c7d092083d
+  reviewed_by: Codex（office_thinking_edit，正文全文回读与配图研究）
+  checked_on: '2026-10-04'
+  reason: 读者容易把较新的 FAQ 或纪要直接替代正式要求；并列检查适用范围和决定状态，比按日期排列文件更能保留本案关键判断。
+  benefit: 回答每个眼前问题时，知道要同时核对依据适用谁、何时适用及是否已经决定；把未决项留在答案中。
+labels:
+  zh-CN: labels.zh-CN.yaml

@@ -1,0 +1,288 @@
+- id: product
+  claim: 腾讯官方将WorkBuddy介绍为可用自然语言交代任务并处理办公文件的AI工作台；Enterprise页面不证明个人账号具备全部功能。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://cloud.tencent.com/document/product/1831/134384
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: stable
+  ttl_days: 30
+  status: confirmed
+  critical: false
+- id: install-windows
+  claim: 官方Windows安装说明列Windows 10及以上、x64，以及下载、安装、浏览器登录返回客户端的流程；实际设备适配另验。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Win-Guide
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: install
+  ttl_days: 30
+  status: confirmed
+  critical: true
+- id: install-mac
+  claim: 官方Mac安装说明列macOS 12及以上、ARM64/X64分包、dmg拖入应用程序及网页登录返回流程。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Mac-Guide
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: install
+  ttl_days: 30
+  status: confirmed
+  critical: true
+- id: first-task
+  claim: 首任务说明区分新建、发送、执行与查看产物；概览可查看工作空间文件。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.workbuddy.cn/docs/workbuddy/FirstTask
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 30
+  status: confirmed
+  critical: true
+- id: create-task
+  claim: 创建任务支持选择工作空间、上传或拖入材料；未指定时有默认工作位置。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/Create-Task
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 30
+  status: confirmed
+  critical: true
+- id: conversation
+  claim: 官方对话说明支持同任务补充、文件引用、详情、执行与停止；运行中消息可能排队，停止不能作为撤销已写入内容的保证。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/Conversation
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 30
+  status: confirmed
+  critical: true
+- id: task-management
+  claim: 官方任务管理说明提供任务列表、搜索和打开已有任务继续处理的方式。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.workbuddy.cn/docs/workbuddy/Task-Management
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 30
+  status: confirmed
+  critical: true
+- id: task-modes
+  claim: Ask用于问答、Plan先形成计划待确认、默认Agent用于执行；官方描述输入区加号的模式入口，客户端细节尚未实测。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Task-Bar
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 30
+  status: confirmed
+  critical: true
+- id: permission
+  claim: 默认权限的普通工作空间操作可能直接执行，不能假定每次写入都确认；完全访问影响当前客户端任务范围，不能代替具体任务边界。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Permission-Modes
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 30
+  status: confirmed
+  critical: true
+- id: model
+  claim: WorkBuddy提供模型及相关能力选择；模型与Ask/Plan/Agent任务方式是不同设置。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Model
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: stable
+  ttl_days: 30
+  status: confirmed
+  critical: false
+- id: document-output
+  claim: 官方案例介绍从材料生成及继续修改Word、演示文稿；不证明本书练习已经成功或所有对象都可编辑。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-Two
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: stable
+  ttl_days: 30
+  status: confirmed
+  critical: false
+- id: file-browser
+  claim: 官方文件页介绍文件位置、对文件发起对话及编辑保存；Office编辑有登录条件，Word/Excel/PPT需主动保存，能力依格式与环境。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/File-Browser
+    checked_on: '2026-10-05'
+  checked_on: '2026-10-05'
+  category: startup
+  ttl_days: 30
+  status: confirmed
+  critical: true
+- id: skills
+  claim: 技能区提供发现、添加、启用/关闭的管理路线；技能存在不证明本次调用与成果合格。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: stable
+  ttl_days: 30
+  status: confirmed
+  critical: false
+- id: expert
+  claim: 专家按角色、方法与能力组织任务，专家团提供多个角色协作；专家入口不是专业资格证明。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Expert-Center
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: stable
+  ttl_days: 30
+  status: confirmed
+  critical: false
+- id: connector
+  claim: 连接器涉及外部服务登录授权与任务中启用；范围依账户和授权，关闭任务使用不等同撤销外部授权。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Connector
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 30
+  status: confirmed
+  critical: true
+- id: library
+  claim: 官方资料管理说明区分个人/团队材料，并支持将指定资料添加到任务；入库不等同每项任务已读或共享。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library/Content-Management
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: stable
+  ttl_days: 30
+  status: confirmed
+  critical: false
+- id: project
+  claim: 项目为持续工作组织共同背景、说明、材料与配置，不等同本地文件夹。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Project
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: stable
+  ttl_days: 30
+  status: confirmed
+  critical: false
+- id: memory
+  claim: 官方记忆说明介绍对话提取及查看、更正、删除、关闭；不能承诺所有历史立即完整用于所有新任务。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Memory
+    checked_on: '2026-10-02'
+  checked_on: '2026-10-02'
+  category: stable
+  ttl_days: 30
+  status: confirmed
+  critical: false
+- id: data-analysis
+  claim: 官方案例覆盖数据分析与可视化；本书统计口径、异常及作者答案属于原创练习设计，不是官方性能承诺。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-Three
+    checked_on: '2026-10-01'
+  checked_on: '2026-10-01'
+  category: stable
+  ttl_days: 30
+  status: confirmed
+  critical: false
+- id: create-skill
+  claim: 此前官方创建技能案例支持自然语言描述可复用方法的路线；生成后仍需核对方法、输入与实际结果。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-Ten
+    checked_on: '2026-10-02'
+  checked_on: '2026-10-02'
+  category: stable
+  ttl_days: 30
+  status: confirmed
+  critical: false
+- id: scheduled-task
+  claim: 定时配置涉及任务说明、工作空间、执行设置与时间规则；官方建议先试运行，执行和通知分开。不据此承诺关闭电脑后执行。
+  scope:
+    product: workbuddy
+    evidence: 官方文档支持；不代表客户端实际验证
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 30
+  status: confirmed
+  critical: true
+- id: version-navigation
+  claim: 官方左侧导航说明在顶部显示当前版本号；独立文件浏览器的账号面板与主窗口用户菜单一致，包含检查更新和记忆与进化入口。
+  scope:
+    product: workbuddy
+    evidence: 2026-10-05读取官方原页；不代表客户端实操或确认最新版本号
+  sources:
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Sidebar
+    checked_on: '2026-10-05'
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/File-Browser
+    checked_on: '2026-10-05'
+  checked_on: '2026-10-05'
+  category: startup
+  ttl_days: 30
+  status: confirmed
+  critical: true

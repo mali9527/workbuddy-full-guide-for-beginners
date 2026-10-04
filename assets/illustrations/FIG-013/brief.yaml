@@ -1,0 +1,51 @@
+kind: concept
+form: relationship
+reader_question: 它为什么既能组织文字，又能处理文件？
+takeaway: 模型帮助理解与生成，工具落实动作，你仍确定目标并核对成果。
+source_sections:
+- 为什么它既能整理文字，又能处理文件
+placement: 为什么它既能整理文字，又能处理文件
+composition: 五个主对象：上排左边你确定目标、右边材料提供事实；中排左边模型理解与生成、右边工具读取与写入；下排居中你核对成果。目标和材料分别指向模型，模型与工具之间画一条清楚的双向连接线，模型和工具再分别连到核对成果。箭头表达工作分工，不画工程内部数据管道。每个对象放在宽松的手绘纸片或文字圈注中，每行最多7字，必要时将模型/工具名称与职责分两行，不能新增未登记文字。不要用机器人、大脑、电路作装饰。
+  所有核心标签至少58px，只有title和labels可以写入图内，不画caption、alt、编号、图例或额外小字。固定notebook-pen-v1方格纸与黑色中性笔，只用黑白中性灰；不画软件窗口、菜单或仿真按钮。
+content_guard: 概念图不是WorkBuddy系统架构或固定执行顺序。材料提供的是事实依据，不意味着电脑里所有文件自动进入模型；具体读取需要工具及相应允许。双向线只说明理解与工具动作可配合，不声称AI能自行确定目标、无需授权或保证事实正确。不把智能体画成模型之外的第二个人格。
+text_roles:
+  goal:
+    role: author
+  facts:
+    role: author
+  model:
+    role: author
+  tools:
+    role: author
+  check:
+    role: author
+structure:
+  nodes:
+  - goal
+  - facts
+  - model
+  - tools
+  - check
+  edges:
+  - - goal
+    - model
+  - - facts
+    - model
+  - - model
+    - tools
+  - - tools
+    - model
+  - - model
+    - check
+  - - tools
+    - check
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 4303145abc02bf638f08727a53c6de63ccaf5dcbce72ffc10930822c04680492
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 本章首次解释模型、工具及智能体。分工关系图比逐词背定义更能说明为什么会说话与能读写文件是不同能力。
+  benefit: 读者知道目标、事实、内容组织、文件动作和验收各由什么承担；出错时不再一味改提示词。
+labels:
+  zh-CN: labels.zh-CN.yaml

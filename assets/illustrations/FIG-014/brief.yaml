@@ -1,0 +1,48 @@
+kind: concept
+form: comparison
+reader_question: 同样关于周报，为什么不能用一种标准判断完成？
+takeaway: 先看这次要解释、办法还是文件，再判断是否完成。
+source_sections:
+- 问问题、讨论办法和处理文件，完成标准不同
+placement: 问问题、讨论办法和处理文件，完成标准不同
+composition: 画三行互相独立的左右配对，共六个主对象。第一行问知识指向解释答到问题；第二行谈办法指向方案便于取舍；第三行交文件指向找得到、能打开修改，两行排进同一结果纸片。三行箭头长度一致，各行之间不连线，不画步骤编号。左侧用简洁纸片或文字圈注，右侧同等大小，强调三种不同验收标准，不能画成从低到高的阶梯。
+  所有核心标签至少58px，只有title和labels可以写入图内，不画caption、alt、编号、图例或额外小字。固定notebook-pen-v1方格纸与黑色中性笔，只用黑白中性灰；不画软件窗口、菜单或仿真按钮。
+content_guard: 这三行是任务用途，不是Ask/Plan/Agent模式的对应表，不使用模式名称或仿真界面。解释仍应回答当前问题，不能把听起来顺当当成事实正确；文件这一行限于本节要求的可编辑周报，不泛化为一切任务都必须生成文件。
+text_roles:
+  ask:
+    role: author
+  answer:
+    role: author
+  discuss:
+    role: author
+  choice:
+    role: author
+  file:
+    role: author
+  usable:
+    role: author
+structure:
+  nodes:
+  - ask
+  - answer
+  - discuss
+  - choice
+  - file
+  - usable
+  edges:
+  - - ask
+    - answer
+  - - discuss
+    - choice
+  - - file
+    - usable
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: e58b6e69185a1990ef64f1be73e3e71193304e2b9d372c186a40e7f866bb0dcc
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 同样围绕周报，咨询、讨论和交文件的完成标准不同；三行并列比较能防止把回复已完成等同于实际交付。
+  benefit: 读者先认清自己这次要哪一种结果，再用相应标准检查，避免无必要的文件生成或漏掉文件交付。
+labels:
+  zh-CN: labels.zh-CN.yaml

@@ -1,0 +1,50 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: relationship
+reader_question: 现在该等，还是该由我补充处理？
+takeaway: 从当前状态选择下一动作，不凭等待时间长短重开任务。
+source_sections:
+- 判断下一步该由谁行动
+- 失败时，修最小的一处
+placement: 判断下一步该由谁行动
+composition: 竖排三条独立判断带，每条左侧椭圆状态、右侧纸签动作，用一条短箭头横向连接。上带working到wait，中带needs_user到respond，下带failed到diagnose。六对象，带与带不连线；每条从左读到右，不加入序号或时间轴。
+  全系列 notebook-pen-v1：统一不透明细方格纸、黑色中性笔和中性灰。只画作者概念示意，不画软件窗口、菜单、按钮、鼠标或状态灯。图内只出现文字包 title
+  与 labels，不把图注、构图指令和风险说明画进图内。所有核心标签至少58px，标题适当放大；对象占主要画幅，保留清楚间距，按358px阅读宽度检查。
+content_guard: 状态是作者概括，不是客户端实际标签。正在处理这一带仅指未要求用户回应时；权限请求应判断动作与范围而非一律同意。三带不是连续步骤，失败不等于必须重跑，停止不等于撤销。
+text_roles:
+  working:
+    role: author
+  wait:
+    role: author
+  needs_user:
+    role: author
+  respond:
+    role: author
+  failed:
+    role: author
+  diagnose:
+    role: author
+structure:
+  nodes:
+  - working
+  - wait
+  - needs_user
+  - respond
+  - failed
+  - diagnose
+  edges:
+  - - working
+    - wait
+  - - needs_user
+    - respond
+  - - failed
+    - diagnose
+analysis:
+  source_sha256: 1bbf47fdea2695667696cdb0a59fb5ce9b93f13e835a43b0ffb2fced5ba3b8bb
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 等待、工具等待用户、实际失败容易都被当作卡住；三组条件与动作可帮助读者减少重复提交。
+  benefit: 先判断是否需要自己行动，再决定等待、提供信息或定位原因。
+labels:
+  zh-CN: labels.zh-CN.yaml

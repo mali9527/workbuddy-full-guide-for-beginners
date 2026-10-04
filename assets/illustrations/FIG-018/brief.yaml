@@ -1,0 +1,47 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: comparison
+reader_question: 模型和模式有什么不同，怎样按这次任务选择？
+takeaway: 模型关乎理解与生成，模式关乎这次工作怎样推进。
+source_sections:
+- 模型负责怎样理解，模式决定这次怎样做
+- 把选择变成一个很短的判断
+placement: 模型负责怎样理解，模式决定这次怎样做
+composition: 不对称左右两区：左侧一张大纸卡写model；右侧上方写mode，下方扇开三张小纸卡ask、plan、agent。只从mode连三条无箭头归属线；model与mode之间不连线，三个分支之间也不连线。五个标签分别只出现一次；每个英文词与中文用途上下分行，画面是概念分工不是软件菜单。
+  全系列 notebook-pen-v1：统一不透明细方格纸、黑色中性笔和中性灰。只画作者概念示意，不画软件窗口、菜单、按钮、鼠标或状态灯。图内只出现文字包 title
+  与 labels，不把图注、构图指令和风险说明画进图内。所有核心标签至少58px，标题适当放大；对象占主要画幅，保留清楚间距，按358px阅读宽度检查。
+content_guard: 不画模型型号、性能排行或费用；不把Ask、Plan、Agent画为三个实际菜单按钮，不暗示三个模式必须依次使用。Plan必须保留等确认，不能画成给计划即自动获准执行；模式不替代权限。
+text_roles:
+  model:
+    role: author
+  mode:
+    role: author
+  ask:
+    role: author
+  plan:
+    role: author
+  agent:
+    role: author
+structure:
+  nodes:
+  - model
+  - mode
+  - ask
+  - plan
+  - agent
+  edges:
+  - - mode
+    - ask
+  - - mode
+    - plan
+  - - mode
+    - agent
+analysis:
+  source_sha256: 3ad7337633110c01d12a6f6de1a6db569767d7eab46383da90405199e9eaaf55
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 相近术语容易让初次读者用换模型解决任务方式不对的问题；对照加分支比再列功能词更直接。
+  benefit: 先知道模型负责理解生成，再根据需要解释、计划或执行选择工作方式。
+labels:
+  zh-CN: labels.zh-CN.yaml

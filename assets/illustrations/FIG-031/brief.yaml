@@ -1,0 +1,47 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: mindmap
+reader_question: 收到新消息，应当改承诺、改计划，还是只更新记录？
+takeaway: 先判断新消息改变哪类信息，再更新相应内容；计划不能代替承诺或实际记录。
+source_sections:
+- 留下最少但够用的信息
+- 新消息来了，更新同一件事
+placement: 新消息来了，更新同一件事
+composition: 四个主要对象。左侧一个中心“新消息”，右侧上下三张较宽卡片，分别写“承诺：已答应什么”“计划：准备怎样做”“记录：实际发生什么”。三条独立分支从新消息连接各卡，不在三张卡之间连箭头。每张分支卡把类别与解释分成两行，类别略粗。分支表示辨别三类信息，不表示一条消息必然修改全部三类；不增添日历格、勾选框或状态颜色。
+  统一 notebook-pen-v1，保留 1448×1086 不透明细方格纸和黑色中性笔。图内只渲染 title 与 labels，不渲染 caption、alt
+  或构图说明。所有核心字至少 58 px，优先 62—68 px，主标题 70 px；文字分行时只在语义处换行，不拆数字或词。四周至少留 75 px，按 358
+  px 正文宽度检查。
+content_guard: 对外承诺只有新约定才能更改；个人计划可以因材料迟到重新安排；实际记录必须有发生依据。图不设置统一完成标准，也不强制所有事项必须经过收到、接受等相同审批步骤。不把计划时间过去画成已完成。
+  这是作者对正文方法的概念图，不是软件界面、操作实录或 WorkBuddy 已执行成果；不画按钮、成功回执、夸大效率数字或未经提供的新事实。
+text_roles:
+  message:
+    role: author
+  commitment:
+    role: author
+  plan:
+    role: author
+  record:
+    role: author
+structure:
+  nodes:
+  - message
+  - commitment
+  - plan
+  - record
+  edges:
+  - - message
+    - commitment
+  - - message
+    - plan
+  - - message
+    - record
+  root: message
+analysis:
+  source_sha256: 7511cb0f74d78823bb8513fcb3e8b36762720011f36cd41972699fa171edcb13
+  reviewed_by: Codex（office_thinking_edit，正文全文回读与配图研究）
+  checked_on: '2026-10-04'
+  reason: 新消息到来时，AI 容易为排顺日程而改掉原承诺，或把旧计划写成已执行；三分支能提示先识别改变的是哪类信息。
+  benefit: 更新事项时保留对外承诺、个人计划和已发生记录的区别，不让材料迟到自动变成交付延期。
+labels:
+  zh-CN: labels.zh-CN.yaml

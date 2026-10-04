@@ -1,0 +1,16 @@
+{
+  "image_sha256": "76906a8e5532aaae165d09fd7b80fd3388798f567ee419386ce4c7bdc889c84a",
+  "input_fingerprint": "f037bb789951eb8d537ce5604f3671fd9191ee92e0b9300befc004bc7d78b59f",
+  "language": "zh-CN",
+  "reviewer": "codex",
+  "checked_on": "2026-10-04",
+  "content": "pass",
+  "text": "pass",
+  "visual": "pass",
+  "background": "pass",
+  "monochrome": "pass",
+  "structure": "pass",
+  "localization": "pass",
+  "placement": "pass",
+  "notes": "主线程与同引擎复核者实际查看最终图和358px正文校样。用图生删除连接器装饰中的双向箭头，避免暗示默认回写同步；其余标签与三分支均核对。仅机械灰度画幅校正，不是客户端实测。"
+}

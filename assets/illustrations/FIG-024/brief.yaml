@@ -1,0 +1,59 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: mindmap
+reader_question: 任务不顺利，先查哪里，怎样避免全部推倒重来？
+takeaway: 先用症状定位可能原因，一次验证一个主要改动。
+source_sections:
+- 文件已添加，它却答非所问
+- 它读到了材料，却用了旧版本
+- 它一直追问，任务迟迟不开始
+- 它开始做了，但方向已经偏了
+- 文件生成了，却找不到或打不开
+- 定时任务没有按预期出现结果
+placement: 附录A 常见问题排查：任务卡住、结果不对、文件打不开
+composition: 左侧偏中一个大圆写problem，向右扇出五条不相交的分支，落到五张上下均匀排布的症状纸签input、source、goal、execution、output。分支只表示从当前问题选择最接近症状，不画箭头或编号，不在五纸签之间连线；每张两行文字，六对象，整体占画幅主体。
+  全系列 notebook-pen-v1：统一不透明细方格纸、黑色中性笔和中性灰。只画作者概念示意，不画软件窗口、菜单、按钮、鼠标或状态灯。图内只出现文字包 title
+  与 labels，不把图注、构图指令和风险说明画进图内。所有核心标签至少58px，标题适当放大；对象占主要画幅，保留清楚间距，按358px阅读宽度检查。
+content_guard: 这是作者的查找地图，不是完整诊断树或软件真实错误标签；各症状不保证互斥，未画出的登录和数据问题仍按正文分节处理。输入依据错误可能影响多个结论，不能把定位一层误读为永远只改一句。不能把停止与恢复原文件等同。
+text_roles:
+  problem:
+    role: author
+  input:
+    role: author
+  source:
+    role: author
+  goal:
+    role: author
+  execution:
+    role: author
+  output:
+    role: author
+structure:
+  nodes:
+  - problem
+  - input
+  - source
+  - goal
+  - execution
+  - output
+  edges:
+  - - problem
+    - input
+  - - problem
+    - source
+  - - problem
+    - goal
+  - - problem
+    - execution
+  - - problem
+    - output
+  root: problem
+analysis:
+  source_sha256: 3dd2336381cc70d61c985af84f8f8f4b6ad594af1848f8441fe146b551437021
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 附录较长，读者发生问题时容易整项重跑或反复换模型；简短症状地图可让其先进入最接近的一节。
+  benefit: 根据具体症状缩小检查对象，保留正确部分，修改后能判断哪项调整起效。
+labels:
+  zh-CN: labels.zh-CN.yaml

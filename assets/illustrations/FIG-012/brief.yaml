@@ -1,0 +1,51 @@
+kind: concept
+form: flow
+reader_question: 怎样把第一次做成，变成下一次少做重复劳动？
+takeaway: 先取得能用的成果，再带着新材料沿用已有效的方法。
+source_sections:
+- 两个部分：先会操作，再通过工作学会方法
+- 分轮使用材料，自己先做，再看参考
+- 把检查与修改也算进投入
+placement: 两个部分：先会操作，再通过工作学会方法
+composition: 五个主对象排成一个宽松、方向明确的闭环：左上材料与要求，中上形成草稿，右上核对修改，右下留下方法，左下换入新材料。上排依次向右，右侧向下，下排向左，最后从左下沿左侧回到左上；箭头不交叉。每个对象是简洁纸片或圈注，不是产品控件。核对修改的对象可用一支小黑笔表示人的检查动作，其余不画装饰。上排每片宽度足以容纳5字，所有纸片地位相等，不把AI回应画成终点。
+  所有核心标签至少58px，只有title和labels可以写入图内，不画caption、alt、编号、图例或额外小字。固定notebook-pen-v1方格纸与黑色中性笔，只用黑白中性灰；不画软件窗口、菜单或仿真按钮。
+content_guard: 这是书中工作与学习方式的概念图，不是WorkBuddy自动执行流程；留下方法和换入新材料由使用者按实际需要完成。不要画自动定时、同步、记忆或无须检查的含义，不给出未经验证的倍数或用时，也不暗示每个小任务必须机械地跑完五步。
+text_roles:
+  inputs:
+    role: author
+  draft:
+    role: author
+  check:
+    role: author
+  method:
+    role: author
+  fresh:
+    role: author
+structure:
+  nodes:
+  - inputs
+  - draft
+  - check
+  - method
+  - fresh
+  edges:
+  - - inputs
+    - draft
+  - - draft
+    - check
+  - - check
+    - method
+  - - method
+    - fresh
+  - - fresh
+    - inputs
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: c8a38a2ddfed5340b317b336f6aa045b4bfc6097272783f0c3659728898a70fa
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 阅读指南先说明怎样通过做事获得效率，不必再画目录。用一次任务到下一次工作的闭环，明确本书追求的是可检查成果与方法复用。
+  benefit: 读者开篇即可理解：交材料只是开始，核对修改与换新材料复用同样属于工作；省力发生在整项工作中。
+labels:
+  zh-CN: labels.zh-CN.yaml

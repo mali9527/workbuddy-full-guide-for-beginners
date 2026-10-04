@@ -1,0 +1,51 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: comparison
+reader_question: 同一编号出现多次，为什么不能一律删掉？
+takeaway: 副本不重复计数，较新完整登记更新状态，同一最新时刻冲突保留待核。
+source_sections:
+- 逐条加入变化，分清副本、更新和冲突
+placement: 逐条加入变化，分清副本、更新和冲突
+composition: 六个主要对象，三行两列。每行左侧是一类记录，右侧是对应处理，仅用三根水平箭头连接本行。第一行相同业务副本→计数一次；第二行较新完整登记→更新当前状态；第三行最新同刻冲突→保留待核。用两张相叠纸页、前后两张状态纸页、两张意见相反纸页的细线稿区别左侧三类，但不添加日期、编号或额外文字。三行互相独立，不用上下箭头串成先后步骤。
+  统一 notebook-pen-v1，保留 1448×1086 不透明细方格纸和黑色中性笔。图内只渲染 title 与 labels，不渲染 caption、alt
+  或构图说明。所有核心字至少 58 px，优先 62—68 px，主标题 70 px；文字分行时只在语义处换行，不拆数字或词。四周至少留 75 px，按 358
+  px 正文宽度检查。
+content_guard: 所有比较均限于正文约定截至时点内的登记。第二行必须保留“完整”，缺字段的新登记不能自动用旧状态顶替；第三行是相同最新更新时间的冲突，不表示所有历史差异都需停工。保留待核只作用于受影响字段，不删除该业务对象，也不补造比例。
+  这是作者对正文方法的概念图，不是软件界面、操作实录或 WorkBuddy 已执行成果；不画按钮、成功回执、夸大效率数字或未经提供的新事实。
+text_roles:
+  copy:
+    role: author
+  once:
+    role: author
+  update:
+    role: author
+  current:
+    role: author
+  conflict:
+    role: author
+  unknown:
+    role: author
+structure:
+  nodes:
+  - copy
+  - once
+  - update
+  - current
+  - conflict
+  - unknown
+  edges:
+  - - copy
+    - once
+  - - update
+    - current
+  - - conflict
+    - unknown
+analysis:
+  source_sha256: 932ec8cb1aabb8938fa7e83c78d18ac9bdb16babf6eb962f27a694b972c1b1b7
+  reviewed_by: Codex（office_thinking_edit，正文全文回读与配图研究）
+  checked_on: '2026-10-04'
+  reason: 相同交付单号既可能是副本，也可能是更新或冲突；三个并列情形能防止把“去重”理解成统一删行。
+  benefit: 遇到重复编号时，先识别记录关系，再分别计数、更新状态或保留待核，保留历史与来源。
+labels:
+  zh-CN: labels.zh-CN.yaml

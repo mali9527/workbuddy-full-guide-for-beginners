@@ -1,0 +1,4 @@
+# Markdown uses two trailing spaces for intentional hard line breaks.
+*.md whitespace=-blank-at-eol
+# The supplied CSV uses standard CRLF line endings for office applications.
+*.csv whitespace=cr-at-eol

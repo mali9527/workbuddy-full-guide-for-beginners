@@ -1,0 +1,139 @@
+id: UI-WB-file-ai-open-20261004
+source_url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/File-Browser
+asset_url: https://download.codebuddy.cn/web/docs/0c7c3272facedbcbcfc0375d0a2cf1155b0c9d60/docs/static/file-browser-ai-expanded.CqOD3CAx.png
+product: WorkBuddy
+surface: desktop
+platform: unknown
+version: unknown
+environment: official-documentation
+ui_locale: zh-CN
+state: file-editor-ai-panel-open-request-unsent
+status: verified
+sanitized: true
+reviewed_by: codex
+checked_on: '2026-10-04'
+viewed_image_sha256: b2ad5d4bbc82a70a09bcf70b4ba1ac74e2ca021b9519178fbcc888bad8dd4f37
+limitations: 已实际查看官方公开PNG像素。截图未给出可确认的操作系统版本或客户端版本，platform/version记unknown；不能仅凭窗口外观推定。右侧AI对话栏已展开，输入框有尚未发送的示例请求。右上AI
+  对话按钮属于另一张闭合态file-editor截图，本图不使用、不拼接。公开示例无用户私有资料，示例文件名和报告内容省略。本图不是客户端实测，也不证明修改已执行。
+regions:
+- id: document-title
+  box:
+  - 0.024
+  - 0.093
+  - 0.143
+  - 0.131
+  text: ''
+  treatment: simplify
+  reason: 当前文件作者圈注指向此处；文件名用短线示意，不虚构为本书已运行的结果文件。
+- id: document-editor
+  box:
+  - 0.022
+  - 0.136
+  - 0.712
+  - 0.961
+  text: ''
+  treatment: simplify
+  reason: 保留左侧文档、工具条和纸页的相对关系，工具文字与正文仅画少量黑线，不重绘完整工具条。
+- id: document-page
+  box:
+  - 0.097
+  - 0.208
+  - 0.631
+  - 0.93
+  text: ''
+  treatment: simplify
+  reason: 表示正在查看的可编辑文档；省略2027年报告标题、预测内容和数字。
+- id: ai-pane
+  box:
+  - 0.714
+  - 0.085
+  - 0.978
+  - 0.961
+  text: ''
+  treatment: keep
+  reason: 保留同一窗口右侧独立对话栏及分隔线，不能画成另开聊天应用。
+- id: workbuddy-header
+  box:
+  - 0.741
+  - 0.099
+  - 0.804
+  - 0.125
+  text: WorkBuddy
+  treatment: keep
+  reason: 右侧对话栏真实标题，保留原文字。
+- id: ai-input
+  box:
+  - 0.727
+  - 0.779
+  - 0.968
+  - 0.929
+  text: ''
+  treatment: keep
+  reason: 保留对话栏底部输入框及右下发送图标；修改要求作者圈注指向正文输入区域。
+- id: unsent-example-request
+  box:
+  - 0.736
+  - 0.799
+  - 0.946
+  - 0.855
+  text: ''
+  treatment: simplify
+  reason: 已有未发送请求简化为两条短线，不把本书标题修改写成已执行或已完成。
+- id: send
+  box:
+  - 0.936
+  - 0.879
+  - 0.959
+  - 0.915
+  text: ''
+  treatment: keep
+  reason: 保留输入区右下的圆形发送箭头；原蓝色改黑白笔线，不增加文本。
+- id: quick-actions
+  box:
+  - 0.726
+  - 0.498
+  - 0.867
+  - 0.756
+  text: ''
+  treatment: omit
+  reason: 省略欢迎词与四个快捷操作，避免新读者把示例动作当成本章必须步骤。
+- id: tabs
+  box:
+  - 0.023
+  - 0.038
+  - 0.318
+  - 0.085
+  text: ''
+  treatment: omit
+  reason: 省略两个示例文件标签名和无关加号；不引入第二份文件干扰当前文件识别。
+- id: save-status
+  box:
+  - 0.145
+  - 0.097
+  - 0.184
+  - 0.126
+  text: ''
+  treatment: omit
+  reason: 本图讲围绕当前文件修改，不另加已保存标记暗示AI修改已经保存。
+- id: input-tools
+  box:
+  - 0.737
+  - 0.875
+  - 0.928
+  - 0.912
+  text: ''
+  treatment: simplify
+  reason: 只保留少量无文字轮廓，不画快速模式、权限选项或展开菜单。
+- id: bottom-status
+  box:
+  - 0.021
+  - 0.931
+  - 0.705
+  - 0.967
+  text: ''
+  treatment: omit
+  reason: 省略页码、字数、缩放值，避免拥挤。
+image_sha256: b2ad5d4bbc82a70a09bcf70b4ba1ac74e2ca021b9519178fbcc888bad8dd4f37
+dimensions:
+- 2248
+- 1369

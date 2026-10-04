@@ -1,0 +1,16 @@
+{
+  "image_sha256": "90a58b1555df4b51df6dac483edd86c78c3410960dd8f613ebc0a9eed1456e3a",
+  "input_fingerprint": "55bf2744c2a98bf520cbe93212949be9fe58adda14b7ea7d82151a25db94ec41",
+  "language": "zh-CN",
+  "reviewer": "codex",
+  "checked_on": "2026-10-04",
+  "content": "pass",
+  "text": "pass",
+  "visual": "pass",
+  "background": "pass",
+  "monochrome": "pass",
+  "structure": "pass",
+  "localization": "pass",
+  "placement": "pass",
+  "notes": "主线程查看生成图；同引擎复核者逐张实际查看最终图像与358px离线正文校样，核对文字、关系、图注和对应小节。灰度及画幅仅机械校正，未做客户端实测。"
+}

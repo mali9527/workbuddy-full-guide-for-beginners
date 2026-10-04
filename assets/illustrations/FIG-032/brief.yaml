@@ -1,0 +1,51 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: relationship
+reader_question: 下期再做，哪些可以沿用，哪些必须重新给？
+takeaway: 复用的是通用方法；本期事实和范围更新，旧稿只借样式，本期结果重新形成。
+source_sections:
+- 把改对的原因写进说明
+- 第二次换材料，不把上次对话当作唯一记忆
+placement: 第二次换材料，不把上次对话当作唯一记忆
+composition: 五个主要对象。左侧四张短纸页排成两行两列：上排“沿用通用方法”“换入本期事实”，下排“更新日期范围”“只借旧稿样式”。右侧一张较大的成果纸页“重做本期结果”。四份输入各以独立短线指向本期结果，线从空白处绕开，不穿过卡片和文字。用纸页折角区分输入与成果，不用软件设置图标。不追加自动运行的循环箭头。
+  统一 notebook-pen-v1，保留 1448×1086 不透明细方格纸和黑色中性笔。图内只渲染 title 与 labels，不渲染 caption、alt
+  或构图说明。所有核心字至少 58 px，优先 62—68 px，主标题 70 px；文字分行时只在语义处换行，不拆数字或词。四周至少留 75 px，按 358
+  px 正文宽度检查。
+content_guard: 沿用不等于规则永远不变；规则变化时需替换旧说明并用熟悉材料检查。旧稿样式绝不输送旧人名、数字与日期；不得画成只换标题就得到本期报告。图不宣称自动读取新文件、跨任务自动记忆或必须创建技能；缺项处理仍按正文执行。
+  这是作者对正文方法的概念图，不是软件界面、操作实录或 WorkBuddy 已执行成果；不画按钮、成功回执、夸大效率数字或未经提供的新事实。
+text_roles:
+  method:
+    role: author
+  facts:
+    role: author
+  period:
+    role: author
+  style:
+    role: author
+  output:
+    role: author
+structure:
+  nodes:
+  - method
+  - facts
+  - period
+  - style
+  - output
+  edges:
+  - - method
+    - output
+  - - facts
+    - output
+  - - period
+    - output
+  - - style
+    - output
+analysis:
+  source_sha256: 1e92cd616ec7e97b702e0a8036c294c3eab3729072a17d262ff2dc6d682e1406
+  reviewed_by: Codex（office_thinking_edit，正文全文回读与配图研究）
+  checked_on: '2026-10-04'
+  reason: 复用时最隐蔽的错误是把旧成稿当本期事实；分别画出沿用与替换对象，可直接提醒下一次该交什么。
+  benefit: 保留下次仍适用的做法，把本期事实、日期范围与样式参考分开，检验留下的是方法而非旧答案。
+labels:
+  zh-CN: labels.zh-CN.yaml

@@ -1,0 +1,16 @@
+{
+  "image_sha256": "9b1aae6a48399af95c952a7c2fbf9105733b4e208a512e7cd8296d9097b39e0c",
+  "input_fingerprint": "300d44578c7d553c3f8c5ee1da82b51e6e915ac277fe49994e0984e263898ba9",
+  "language": "zh-CN",
+  "reviewer": "codex",
+  "checked_on": "2026-10-04",
+  "content": "pass",
+  "text": "pass",
+  "visual": "pass",
+  "background": "pass",
+  "monochrome": "pass",
+  "structure": "pass",
+  "localization": "pass",
+  "placement": "pass",
+  "notes": "主线程查看生成图；同引擎复核者逐张实际查看最终图像与358px离线正文校样，核对文字、关系、图注和对应小节。灰度及画幅仅机械校正，未做客户端实测。 FIG-019将移至同小节三层判断段落后，双图最终位置待复核。"
+}

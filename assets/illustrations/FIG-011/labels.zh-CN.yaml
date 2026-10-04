@@ -1,0 +1,7 @@
+title: 围绕当前文件提修改要求
+caption: 展开文件内的对话栏后，先确认当前文件，再提出具体修改要求。图中输入框仍是待发送状态。
+alt: 同一文件窗口的手绘图：左侧为文档，右侧为已展开的WorkBuddy对话栏；作者圈注指向当前文件标题和右栏修改要求输入区。
+labels:
+  workbuddy: WorkBuddy
+  current_file_note: 当前文件
+  change_note: 修改要求

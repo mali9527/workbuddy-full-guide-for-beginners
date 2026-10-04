@@ -1,0 +1,102 @@
+id: UI-WB-permission-menu-20261004
+source_url: https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Permission-Modes
+asset_url: https://download.codebuddy.cn/web/docs/0c7c3272facedbcbcfc0375d0a2cf1155b0c9d60/docs/static/permission-menu.D2eTfMb0.png
+product: WorkBuddy
+surface: desktop
+platform: unknown
+version: unknown
+environment: official-documentation
+ui_locale: zh-CN
+state: default-permission-menu-open-full-access-off
+status: verified
+sanitized: true
+reviewed_by: codex
+checked_on: '2026-10-04'
+viewed_image_sha256: b3bdf6c6b81538a9f95b2c712b0e02025223fefcb1fba7641f56e5ccbe451f5d
+limitations: 已实际查看官方公开PNG像素，未标出平台或客户端版本，因此两者为unknown。允许完全访问的开关处于关闭状态，圆点在左侧。公开示例无用户私有资料。省略模型名、模板分类和头像。不是客户端实测。
+regions:
+- id: default-permission
+  box:
+  - 0.239
+  - 0.846
+  - 0.318
+  - 0.933
+  text: 默认权限
+  treatment: keep
+  reason: 保持弹出面板下方的原权限入口及原文字。
+- id: permission-panel
+  box:
+  - 0.209
+  - 0.332
+  - 0.462
+  - 0.824
+  text: ''
+  treatment: keep
+  reason: 保留面板位于权限入口上方，以及说明区、分隔线和开关行的上下关系。
+- id: explanation
+  box:
+  - 0.228
+  - 0.39
+  - 0.438
+  - 0.591
+  text: ''
+  treatment: simplify
+  reason: 长说明用三条短横线表示，含义在正文讲清，不在图中另写新的软件提示。
+- id: full-access
+  box:
+  - 0.228
+  - 0.688
+  - 0.347
+  - 0.774
+  text: 允许完全访问
+  treatment: keep
+  reason: 面板下半部真实开关文字。
+- id: full-access-switch-off
+  box:
+  - 0.406
+  - 0.697
+  - 0.443
+  - 0.77
+  text: ''
+  treatment: keep
+  reason: 开关保持关闭，浅色底用黑笔空心轮廓表示，圆点明确在左；不能涂成开启状态。
+- id: permission-shield
+  box:
+  - 0.218
+  - 0.851
+  - 0.239
+  - 0.923
+  text: ''
+  treatment: keep
+  reason: 保留权限入口左边的小盾牌作为定位参照。
+- id: workspace-neighbor
+  box:
+  - 0.043
+  - 0.846
+  - 0.194
+  - 0.944
+  text: ''
+  treatment: omit
+  reason: 本图局部放大权限入口与上方弹出面板，不重复第04章工作空间教学。
+- id: other-input-area
+  box:
+  - 0.464
+  - 0.31
+  - 0.967
+  - 0.968
+  text: ''
+  treatment: omit
+  reason: 省略模型、发送和其他输入工具，集中展示默认权限的关闭状态。
+- id: templates-avatar
+  box:
+  - 0.015
+  - 0.014
+  - 0.978
+  - 0.327
+  text: ''
+  treatment: omit
+  reason: 不画模板、卡通形象及无关功能。
+image_sha256: b3bdf6c6b81538a9f95b2c712b0e02025223fefcb1fba7641f56e5ccbe451f5d
+dimensions:
+- 1288
+- 446

@@ -1,0 +1,8 @@
+title: 先认识三个区域
+caption: 左侧找任务，中间继续对话，右侧查看展开的结果。本章只整理文字，不要求生成文件。
+alt: 官方主界面的手绘概览：左侧保留新建任务入口，作者圈注标出任务区、中央对话区和右侧已展开的结果区；示例内容被简化。
+labels:
+  new_task: 新建任务
+  tasks_note: 任务区
+  conversation_note: 对话区
+  results_note: 结果区

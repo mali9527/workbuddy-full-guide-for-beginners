@@ -1,0 +1,51 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: comparison
+reader_question: 这次应该补材料，还是让 AI 改写？
+takeaway: 缺事实先找依据或保留待定；表达不清才定向改写，两种修改都要核对事实与承诺。
+source_sections:
+- 第一稿先做到同事看完能行动
+- 把事实缺口和表达问题分开处理
+placement: 把事实缺口和表达问题分开处理
+composition: 五个主要对象，排成上下两条短路径。上行左“事实缺口”→中“补依据或留待定”；下行左“表达不清”→中“改指定句段”。两条路径在右侧汇入一张较大的“复核事实与承诺”纸页。左右分支同等视觉权重，不画上优下劣。右端复核用放大镜线稿辅助，但不新增对象或文字。
+  统一 notebook-pen-v1，保留 1448×1086 不透明细方格纸和黑色中性笔。图内只渲染 title 与 labels，不渲染 caption、alt
+  或构图说明。所有核心字至少 58 px，优先 62—68 px，主标题 70 px；文字分行时只在语义处换行，不拆数字或词。四周至少留 75 px，按 358
+  px 正文宽度检查。
+content_guard: 补依据不等于整项任务必须停下，留待定不等于可忽略影响行动的关键缺口；这些条件由相邻正文解释。定向改写必须保留已有正确事实，不能把录播建议改为已确认承诺。不画具体软件对话。
+  这是作者对正文方法的概念图，不是软件界面、操作实录或 WorkBuddy 已执行成果；不画按钮、成功回执、夸大效率数字或未经提供的新事实。
+text_roles:
+  fact_gap:
+    role: author
+  fact_fix:
+    role: author
+  expression:
+    role: author
+  rewrite:
+    role: author
+  check:
+    role: author
+structure:
+  nodes:
+  - fact_gap
+  - fact_fix
+  - expression
+  - rewrite
+  - check
+  edges:
+  - - fact_gap
+    - fact_fix
+  - - expression
+    - rewrite
+  - - fact_fix
+    - check
+  - - rewrite
+    - check
+analysis:
+  source_sha256: 180c8e7ba74c9d6648bc6a576ec4942a561670a6a3b24c69ca82b8ddfdd8b8ba
+  reviewed_by: Codex（office_thinking_edit，正文全文回读与配图研究）
+  checked_on: '2026-10-04'
+  reason: 通知中缺少事实和句子表达不清，表面都像“写得不好”，却不能用相同的润色指令修好；两条路径适合并排比较。
+  benefit: 先判断缺的是事实还是表达，再给 WorkBuddy 对应反馈，减少反复整篇重写与新增无依据承诺。
+labels:
+  zh-CN: labels.zh-CN.yaml

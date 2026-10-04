@@ -1,0 +1,93 @@
+id: UI-WB-create-20261004
+source_url: https://www.codebuddy.cn/docs/workbuddy/Create-Task
+asset_url: https://download.codebuddy.cn/web/docs/0c7c3272facedbcbcfc0375d0a2cf1155b0c9d60/docs/static/createtask-template-preview.tNJnCxJ-.png
+product: WorkBuddy
+surface: desktop
+platform: unknown
+version: unknown
+environment: official-documentation
+ui_locale: zh-CN
+state: template-hover
+status: verified
+sanitized: true
+reviewed_by: codex
+checked_on: '2026-10-04'
+viewed_image_sha256: e6853f1e831f04ddaddd698100f5bb620aa493906ae927d93008e61d18a1163a
+limitations: 官方公开示例，无用户私有资料；未标平台与客户端版本。主线程已实际查看完整PNG，仅采用输入区及工作空间控件，省略模板与模型内容。不是客户端实测。
+regions:
+- id: input
+  box:
+  - 0.052
+  - 0.51
+  - 0.947
+  - 0.816
+  text: ''
+  treatment: keep
+  reason: 保留输入区域及下沿图标的相对位置，正文内容简化为短横线。
+- id: workspace
+  box:
+  - 0.074
+  - 0.828
+  - 0.209
+  - 0.891
+  text: 选择工作空间
+  treatment: keep
+  reason: 本图要让读者找到的真实控件。
+- id: permission
+  box:
+  - 0.226
+  - 0.828
+  - 0.333
+  - 0.891
+  text: 默认权限
+  treatment: keep
+  reason: 保留紧邻工作空间的真实控件作为位置参照。
+- id: plus
+  box:
+  - 0.074
+  - 0.727
+  - 0.1
+  - 0.78
+  text: +
+  treatment: keep
+  reason: 保留输入区左下的加号图标，不扩展尚未展开的菜单。
+- id: send
+  box:
+  - 0.893
+  - 0.71
+  - 0.938
+  - 0.792
+  text: ''
+  treatment: keep
+  reason: 保留右下发送图标；作者圈注位于框外。
+- id: sample
+  box:
+  - 0.074
+  - 0.529
+  - 0.925
+  - 0.695
+  text: ''
+  treatment: simplify
+  reason: 不教学官方模板示例任务，改用少量短横线表示原任务文字，不写成本书周报已运行。
+- id: model
+  box:
+  - 0.704
+  - 0.717
+  - 0.884
+  - 0.8
+  text: ''
+  treatment: omit
+  reason: 模型名与本图无关且可能变化，省略此局部具体控件。
+- id: top
+  box:
+  - 0.046
+  - 0.076
+  - 0.937
+  - 0.506
+  text: ''
+  treatment: omit
+  reason: 不画模板和卡通形象，集中于首次任务必要入口。
+image_sha256: e6853f1e831f04ddaddd698100f5bb620aa493906ae927d93008e61d18a1163a
+dimensions:
+- 1080
+- 567

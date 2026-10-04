@@ -1,0 +1,55 @@
+kind: interface
+form: detail
+reader_question: 第一次交任务时，工作空间在哪里选？
+takeaway: 先选文件读写位置，再写要求并发送。
+source_sections:
+- 新建任务，明确材料和结果放在哪里
+placement: 新建任务，明确材料和结果放在哪里
+composition: 只画参考截图中输入框及其下方两项控件，保持原有上下与左右相对位置。输入框保留左下加号、右下空心发送图标，里面任务内容仅用三条短黑线示意。工作空间左、默认权限右，均在框下。外部三处作者圈注：任务要求指输入区正文；先选工作空间指选择工作空间；发送指右下发送图标。圈注不伪装为按钮，箭头不相交。所有核心字约55px以上，内容占大部分纸面。省略截图的上半页模板、猫和指定模型。
+content_guard: 真实界面结构来自已看官方模板悬停截图；不把省略区补造成新控件，不填入虚构运行成果，不复制样张Claude Code文字或页脚，不把来源配色带入图。
+text_roles:
+  workspace:
+    role: ui
+  permission:
+    role: ui
+  input_note:
+    role: author
+  workspace_note:
+    role: author
+  send_note:
+    role: author
+ui:
+  product: WorkBuddy
+  surface: desktop
+  platform: unknown
+  environment: official-documentation
+  ui_locale: zh-CN
+  state: template-hover
+  version: unknown
+  references:
+  - UI-WB-create-20261004
+  controls:
+  - label: workspace
+    reference: UI-WB-create-20261004
+    region: workspace
+  - label: permission
+    reference: UI-WB-create-20261004
+    region: permission
+structure:
+  nodes:
+  - workspace
+  - permission
+  - input_note
+  - workspace_note
+  - send_note
+  edges: []
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 68d68a64f0331409e24942a6bf01da559433917c02a1e8b40943b71718ff2ede
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 工作空间位于输入框下方，初次读者容易把它与上传附件混同；局部真实界面能定位。
+  benefit: 读者识别任务文字、工作空间和发送三个位置，不把文件打开视为自动提供给任务。
+labels:
+  zh-CN: labels.zh-CN.yaml

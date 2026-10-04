@@ -1,0 +1,35 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: overview
+reader_question: 允许访问、要求处理和已经完成是不是一回事？
+takeaway: 权限、任务要求、实际结果分别回答不同问题。
+source_sections:
+- 默认权限，不代表每一步都会再问
+- 整理完，看文件，不只看完成提示
+placement: 默认权限，不代表每一步都会再问
+composition: 三个并列但略错落的手绘观察卡：左卡用极简钥匙符号并写permission，中卡用纸上短横线符号并写request，右卡用叠放文件符号并写result。每卡只有一个两行标签，三卡不互相包含、不画流程箭头；图放在正文明确说工具能否操作、这次要求什么、实际做了什么的段落附近。
+  全系列 notebook-pen-v1：统一不透明细方格纸、黑色中性笔和中性灰。只画作者概念示意，不画软件窗口、菜单、按钮、鼠标或状态灯。图内只出现文字包 title
+  与 labels，不把图注、构图指令和风险说明画进图内。所有核心标签至少58px，标题适当放大；对象占主要画幅，保留清楚间距，按358px阅读宽度检查。
+content_guard: 不是WorkBuddy的三个开关或权限级别。禁止画成权限通过后任务必然正确的链条，禁止暗示每个动作都有确认弹窗。图不证明本章六文件练习已运行。
+text_roles:
+  permission:
+    role: author
+  request:
+    role: author
+  result:
+    role: author
+structure:
+  nodes:
+  - permission
+  - request
+  - result
+  edges: []
+analysis:
+  source_sha256: 4417a0eeacabfc9106b4e41db88f5b9c3b7f2bf3ed92fe67b480c2be61afef8d
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 读者可能把一句不要修改误认为系统权限，或把获得授权误认为已经按要求完成，需要把三个判断对象分开。
+  benefit: 遇到不确定情况时分别查设置、任务说明和实际文件，不因没有弹窗就假定文件未变。
+labels:
+  zh-CN: labels.zh-CN.yaml

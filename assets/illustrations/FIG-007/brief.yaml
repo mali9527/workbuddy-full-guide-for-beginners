@@ -1,0 +1,42 @@
+kind: interface
+form: overview
+reader_question: 任务、对话和结果分别在哪里？
+takeaway: 先认清三区，再从新建任务开始。
+source_sections:
+- 先找三个地方
+placement: 先找三个地方
+composition: 单张主界面概览，严格按参考保持左窄任务侧栏、中央对话、右侧已展开结果预览的左右关系，宽度近似1:2:2。保留左上新建任务及其加号；侧栏其他入口用少量短线简化，任务入口保持收起，不补画历史任务条目。中央保留回复短线、结果卡片轮廓和底部输入框，右侧保留预览区域。作者圈注任务区、对话区、结果区分别放在对应区域外缘，短箭头只指本区，不伪装成软件页签。三个圈注与新建任务文字约55px以上，其余内容尽量用线条表示。图内只渲染title与labels，caption和alt留在正文图注，不印在纸上。
+content_guard: 只重绘已看截图的三区空间关系。来源是Windows v5.1.1，但不在图里画版本号、操作系统说明、版本声明、原文件路径、用户名或旅游任务内容。结果预览存在仅说明本参考处于有产物状态，不能暗示本章三条提醒会生成文件；不虚构显示详情面板按钮或将其文字加到原图未标注的图标上。固定方格纸与黑笔，仅黑白中性灰，不复制原截图配色。
+text_roles:
+  new_task:
+    role: ui
+  tasks_note:
+    role: author
+  conversation_note:
+    role: author
+  results_note:
+    role: author
+ui:
+  product: WorkBuddy
+  surface: desktop
+  platform: windows
+  version: 5.1.1
+  environment: official-documentation
+  ui_locale: zh-CN
+  state: task-created-result-open
+  references:
+  - UI-WB-created-task-20261004
+  controls:
+  - label: new_task
+    reference: UI-WB-created-task-20261004
+    region: new-task
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 2a7a472907bb17e7a05c6870abb120ad9697bba4f2b7a1ad49a539921ae638a8
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 正文首次区分任务列表、对话和结果位置，真实主界面的三区概览比文字方位更易记住。
+  benefit: 读者能找到新建任务，并区分找回工作、继续交谈和查看文件结果的位置。
+labels:
+  zh-CN: labels.zh-CN.yaml

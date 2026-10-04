@@ -1,0 +1,9 @@
+title: 发出任务前，先选好工作空间
+caption: “选择工作空间”位于输入框下方；添加材料与选择工作空间是不同动作。
+alt: 官方创建任务输入区的局部手绘：输入框内写任务要求，右下发送，框下左侧选择工作空间，右侧默认权限。
+labels:
+  workspace: 选择工作空间
+  permission: 默认权限
+  input_note: 任务要求
+  workspace_note: 先选工作空间
+  send_note: 发送

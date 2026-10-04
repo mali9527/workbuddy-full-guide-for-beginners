@@ -1,0 +1,40 @@
+kind: interface
+form: overview
+reader_question: 在文件里让AI修改时，应先确认哪个对象？
+takeaway: 先认准当前文件，再提出限定范围的修改要求。
+source_sections:
+- 只改需要改的位置
+placement: 只改需要改的位置
+composition: 仅采用file-ai这一张已展开侧栏的真实状态，不制作双状态、不借用闭合态按钮。保持同一窗口左侧文档编辑区域、右侧WorkBuddy对话栏的相对关系，左宽右窄约7:3，可适度压缩无关正文以放大关键区域。文件标题位置用一条短线，文档工具条与正文用少量黑线；右栏保留真实WorkBuddy标题、底部输入框和右下发送箭头，其余欢迎内容省略。作者圈注当前文件放在左上窗口外侧并指向文件标题位置；修改要求放在右栏下方外侧，指向输入框文字区。输入框内原示例请求只画两条短线，保持尚未发送的状态。三条labels约55px以上，当前文件和修改要求清楚位于界面外，不能伪装为按钮。图内仅渲染title与labels，不渲染caption或alt。
+content_guard: 右侧对话栏已展开，此状态没有右上AI 对话按钮，禁止将file-editor闭合态的按钮拼入此图。不得把作者圈注改成软件控件，不把原示例报告文件名换成已生成的本书结果，不把输入草稿画成成功修改回执。省略已保存状态，避免误以为输入的修改已经完成并保存；不承诺所有格式可编辑。保留同一窗口和左右位置，用固定方格纸黑笔，仅黑白中性灰。
+text_roles:
+  workbuddy:
+    role: ui
+  current_file_note:
+    role: author
+  change_note:
+    role: author
+ui:
+  product: WorkBuddy
+  surface: desktop
+  platform: unknown
+  version: unknown
+  environment: official-documentation
+  ui_locale: zh-CN
+  state: file-editor-ai-panel-open-request-unsent
+  references:
+  - UI-WB-file-ai-open-20261004
+  controls:
+  - label: workbuddy
+    reference: UI-WB-file-ai-open-20261004
+    region: workbuddy-header
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: a42111e18fd0f7699a2a7072fc7fc94f0e52b49d2c7f1c2f5340eec95b4e42fb
+  reviewed_by: codex
+  checked_on: '2026-10-05'
+  reason: 本章需要把文件里的AI对话与主任务聊天区分开；单张真实展开态能看清正在查看的文件与右侧提要求的位置。 本轮公开准备已回读对应小节，图意保持，依据更新后的正文与图注重新制作。
+  benefit: 先确认当前文件，再在同一文件的对话栏写具体修改要求，避免改错对象。
+labels:
+  zh-CN: labels.zh-CN.yaml

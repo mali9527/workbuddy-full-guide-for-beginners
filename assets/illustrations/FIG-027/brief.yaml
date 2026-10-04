@@ -1,0 +1,47 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: relationship
+reader_question: 为什么未完成的事项仍要算进计划？
+takeaway: 本例计划内同时保留按期完成、迟完成和尚未完成，不能只挑已完成项。
+source_sections:
+- 先看懂一行，再谈汇总
+- 先让五条记录说明算法
+- 合成一个能回查的工作簿
+placement: 先让五条记录说明算法
+composition: 四个主要对象。一个大而清楚的外框标“本期计划”，框内横向并列三张大小相同的卡片，分别是按期完成、迟于约定完成、尚未完成。外框与卡片构成包含关系，无流程箭头。用一个轻黑笔圈圈出尚未完成卡片，强调它仍在框内；三个卡片的面积不表达数量或比例。标签可分两行，最多每行六字。
+  统一 notebook-pen-v1，保留 1448×1086 不透明细方格纸和黑色中性笔。图内只渲染 title 与 labels，不渲染 caption、alt
+  或构图说明。所有核心字至少 58 px，优先 62—68 px，主标题 70 px；文字分行时只在语义处换行，不拆数字或词。四周至少留 75 px，按 358
+  px 正文宽度检查。
+content_guard: 本图只说明 A 包完整且无待核冲突时的三种情况；不是通用于所有业务的状态全集，不把 B 包冲突、取消和资格未知偷藏在这三类中。计划范围由正文的月份、原约定日、截至时点和取消规则先确定。不使用实际效果数字或省时比例。
+  这是作者对正文方法的概念图，不是软件界面、操作实录或 WorkBuddy 已执行成果；不画按钮、成功回执、夸大效率数字或未经提供的新事实。
+text_roles:
+  plan:
+    role: author
+  ontime:
+    role: author
+  late:
+    role: author
+  pending:
+    role: author
+structure:
+  nodes:
+  - plan
+  - ontime
+  - late
+  - pending
+  edges:
+  - - plan
+    - ontime
+  - - plan
+    - late
+  - - plan
+    - pending
+analysis:
+  source_sha256: 89237a527ea1eddd7aa6b13b9fb4f60fdede8853a37388e84a1dd6b1ac1c5a1a
+  reviewed_by: Codex（office_thinking_edit，正文全文回读与配图研究）
+  checked_on: '2026-10-04'
+  reason: 最容易改变指标含义的错误，是只统计已经完成的记录；包含关系能直接看出未完成事项仍属于计划。
+  benefit: 理解按期数只是计划内的一部分，计算之前先固定分母，不因为某项未完成而删掉它。
+labels:
+  zh-CN: labels.zh-CN.yaml

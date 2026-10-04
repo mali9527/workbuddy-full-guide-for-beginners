@@ -1,0 +1,10 @@
+build/
+*.pdf
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Private screenshot evidence, production packs and previews
+.studio/

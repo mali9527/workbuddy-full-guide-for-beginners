@@ -1,0 +1,138 @@
+id: UI-WB-created-task-20261004
+source_url: https://www.codebuddy.cn/docs/workbuddy/Create-Task
+asset_url: https://download.codebuddy.cn/web/docs/0c7c3272facedbcbcfc0375d0a2cf1155b0c9d60/docs/static/createtask-1.CJulLJlb.png
+product: WorkBuddy
+surface: desktop
+platform: windows
+version: 5.1.1
+environment: official-documentation
+ui_locale: zh-CN
+state: task-created-result-open
+status: verified
+sanitized: true
+reviewed_by: codex
+checked_on: '2026-10-04'
+viewed_image_sha256: c5d204d994b3ad5ec465a9a30ff0e919bbcb05c03f56fed3c39f0d572baac7f6
+limitations: 已实际查看官方公开PNG像素。截图可见v5.1.1及Windows窗口/路径特征；这些只用于来源身份，不画入图。公开示例未包含本书用户私有材料；官方示例用户名路径、旅游文字及价格均省略。任务列表在此画面处于收起状态，不能补画成已展开历史。不是客户端实测，也不表示本章三条提醒会生成文件。
+regions:
+- id: new-task
+  box:
+  - 0.01
+  - 0.103
+  - 0.077
+  - 0.136
+  text: 新建任务
+  treatment: keep
+  reason: 本章需要找到的真实新建入口；保留左侧加号及原位置。
+- id: task-sidebar
+  box:
+  - 0.0
+  - 0.033
+  - 0.2
+  - 0.945
+  text: ''
+  treatment: simplify
+  reason: 保留最左侧区域、收起的任务入口及层级轮廓；无关导航用少量短线表示，不补造已展开任务记录。
+- id: task-folded-entry
+  box:
+  - 0.01
+  - 0.346
+  - 0.061
+  - 0.371
+  text: ''
+  treatment: simplify
+  reason: 任务区作者圈注指向这里；保持右向展开箭头，不显示具体数量。
+- id: conversation
+  box:
+  - 0.2
+  - 0.033
+  - 0.601
+  - 0.972
+  text: ''
+  treatment: simplify
+  reason: 保留中央对话区、消息与底部输入框的上下关系；示例正文改为少量短线。
+- id: input
+  box:
+  - 0.212
+  - 0.818
+  - 0.588
+  - 0.97
+  text: ''
+  treatment: keep
+  reason: 保留输入框轮廓及右下发送图标，省略具体模式、模型和工具图标。
+- id: artifact-card
+  box:
+  - 0.214
+  - 0.627
+  - 0.584
+  - 0.705
+  text: ''
+  treatment: simplify
+  reason: 只保留结果卡片轮廓与文件图标，文件名用短线示意，不改写为本书已生成成果。
+- id: result-panel
+  box:
+  - 0.601
+  - 0.033
+  - 1.0
+  - 1.0
+  text: ''
+  treatment: simplify
+  reason: 保留右侧独立预览区域及其上沿，结果内容只画少量行和块，表示真实样图处于结果展开状态。
+- id: version
+  box:
+  - 0.009
+  - 0.046
+  - 0.075
+  - 0.087
+  text: ''
+  treatment: omit
+  reason: v5.1.1只存来源元数据，图内不画版本号或版本声明。
+- id: task-title
+  box:
+  - 0.207
+  - 0.05
+  - 0.498
+  - 0.083
+  text: ''
+  treatment: omit
+  reason: 旅游任务标题与本章无关。
+- id: travel-message
+  box:
+  - 0.212
+  - 0.095
+  - 0.591
+  - 0.614
+  text: ''
+  treatment: simplify
+  reason: 不抄旅游文案与价格，以少量短线表达已有回复。
+- id: file-address
+  box:
+  - 0.665
+  - 0.105
+  - 0.884
+  - 0.143
+  text: ''
+  treatment: omit
+  reason: 省略原网址框具体内容及其中用户名和路径。
+- id: travel-preview
+  box:
+  - 0.603
+  - 0.154
+  - 0.994
+  - 1.0
+  text: ''
+  treatment: simplify
+  reason: 不复制旅游页面、照片、配色或价格；只保留预览结构块。
+- id: avatar-footer
+  box:
+  - 0.0
+  - 0.945
+  - 0.2
+  - 1.0
+  text: ''
+  treatment: omit
+  reason: 省略头像、通知及无关页脚。
+image_sha256: c5d204d994b3ad5ec465a9a30ff0e919bbcb05c03f56fed3c39f0d572baac7f6
+dimensions:
+- 1927
+- 1271

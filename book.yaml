@@ -1,0 +1,648 @@
+id: workbuddy
+title: WorkBuddy高效工作法：零基础掌握办公与学习的7个高效习惯
+type: book
+language: zh-CN
+product: workbuddy
+audience: 有日常电脑使用经验、无编程基础，尚未使用WorkBuddy或深入使用AI工具的白领
+baseline:
+  product_version: 按官方文档及注明来源的界面截图说明；不固定客户端实测版本
+  checked_on: null
+repository:
+  name: null
+  default_branch: main
+is_test: false
+watershed: choose
+platforms:
+- windows
+- mac
+required_checks:
+- editorial
+- facts
+parts:
+- title: 开篇
+  starts_at: reading-guide
+- title: 第一部分 从零上手：学会 WorkBuddy 的基本操作
+  starts_at: understand
+- title: 第二部分 高效办公：七类常见工作与AI工作习惯
+  starts_at: choose
+- title: 附录
+  starts_at: troubleshooting
+units:
+- id: reading-guide
+  title: 阅读指南：从第一次使用，到减少日常重复劳动
+  path: manuscript/reading-guide.md
+  section: popular
+  depth: 0
+  prerequisites: []
+  features:
+  - learning-path
+  - materials
+  - efficiency-log
+  facts: []
+  derived_from: null
+  required_checks:
+  - editorial
+- id: understand
+  title: 第01章 认识 WorkBuddy：它能帮你完成哪些工作
+  path: manuscript/understand.md
+  section: popular
+  depth: 0
+  prerequisites: []
+  features:
+  - product
+  - ai
+  - model-agent-tools
+  - task-fit
+  facts:
+  - product
+  - first-task
+  - document-output
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: setup
+  title: 第02章 安装与登录：准备好第一次使用
+  path: manuscript/setup.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - understand
+  features:
+  - install
+  - account
+  - version
+  facts:
+  - install-windows
+  - install-mac
+  - version-navigation
+  - create-task
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: first-screen
+  title: 第03章 认识界面：创建任务，发出第一条消息
+  path: manuscript/first-screen.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - setup
+  features:
+  - interface
+  - task
+  - message
+  - workspace
+  facts:
+  - first-task
+  - create-task
+  - conversation
+  - task-management
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: first-file
+  title: 第04章 第一次完成任务：把工作记录整理成周报
+  path: manuscript/first-file.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - first-screen
+  features:
+  - files
+  - task-brief
+  - results
+  - first-workflow
+  facts:
+  - first-task
+  - create-task
+  - task-modes
+  - permission
+  - document-output
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: materials
+  title: 第05章 提供材料：让 WorkBuddy 读对文件、用对版本
+  path: manuscript/materials.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - first-file
+  features:
+  - input-materials
+  - attachments
+  - paths
+  - workspace
+  facts:
+  - create-task
+  - conversation
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: task-brief
+  title: 第06章 交代任务：说清目的、要求和交付物
+  path: manuscript/task-brief.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - materials
+  features:
+  - prompt
+  - context
+  - follow-up
+  - task-continuity
+  facts:
+  - conversation
+  - document-output
+  - memory
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: models-modes
+  title: 第07章 选择模型与模式：直接做、先讨论，还是先计划
+  path: manuscript/models-modes.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - first-file
+  features:
+  - models
+  - agent-plan-ask
+  - context
+  - mode-selection
+  facts:
+  - task-modes
+  - model
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: permissions
+  title: 第08章 权限与授权：设定本次任务的操作范围
+  path: manuscript/permissions.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - first-file
+  features:
+  - permissions
+  - authorization
+  - scope
+  - backup
+  facts:
+  - permission
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: running-control
+  title: 第09章 跟进任务：查看进度、补充要求与继续处理
+  path: manuscript/running-control.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - first-file
+  features:
+  - execution-state
+  - clarification
+  - stop-resume
+  - errors
+  facts:
+  - conversation
+  - task-management
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: results
+  title: 第10章 检查结果：找到、修改和保存文件
+  path: manuscript/results.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - first-file
+  features:
+  - results
+  - preview
+  - cowriting
+  - save-versions
+  facts:
+  - first-task
+  - document-output
+  - file-browser
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: capability-system
+  title: 第11章 按需扩展：认识技能、专家与连接器
+  path: manuscript/capability-system.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - first-file
+  features:
+  - skills
+  - experts
+  - expert-teams
+  - connectors
+  - office-file-skills
+  facts:
+  - skills
+  - expert
+  - connector
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: continuity
+  title: 第12章 接续工作：按需认识资料库、项目与记忆
+  path: manuscript/continuity.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - first-file
+  features:
+  - library
+  - projects
+  - memory
+  - knowledge-base
+  - context-continuity
+  facts:
+  - library
+  - project
+  - memory
+  - file-browser
+  - version-navigation
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: choose
+  title: 选读指南：从眼前最需要完成的工作开始
+  path: manuscript/choose.md
+  section: watershed
+  depth: 0
+  prerequisites:
+  - first-file
+  features:
+  - learning-path
+  - prerequisites
+  facts: []
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: capability-learn
+  title: 第13章 资料搜集与快速学习：带着问题找到可靠答案
+  path: manuscript/capability-learn.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - reading
+  - learning
+  - sources
+  - explanation
+  - application
+  - web-search
+  - source-verification
+  - information-triage
+  - batch-files
+  - knowledge-reuse
+  facts:
+  - library
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: capability-write
+  title: 第14章 文稿写作与文档制作：写清内容，交出可用文件
+  path: manuscript/capability-write.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - audience
+  - writing
+  - outline
+  - editing
+  - document-delivery
+  facts:
+  - create-task
+  - conversation
+  - document-output
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: capability-data
+  title: 第15章 表格处理与数据分析：统一口径，得到可信结论
+  path: manuscript/capability-data.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - data-cleaning
+  - spreadsheet
+  - analysis
+  - charts
+  - reconciliation
+  facts:
+  - create-task
+  - conversation
+  - data-analysis
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: capability-present
+  title: 第16章 工作总结与汇报展示：提炼成果，讲清重点
+  path: manuscript/capability-present.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - reporting
+  - story-structure
+  - powerpoint
+  - presentation
+  - questions
+  facts:
+  - create-task
+  - conversation
+  - document-output
+  - expert
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: capability-think
+  title: 第17章 问题分析与方案制定：找准问题，比较可行办法
+  path: manuscript/capability-think.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - problem-framing
+  - research
+  - comparison
+  - planning
+  - prioritization
+  facts:
+  - conversation
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: capability-coordinate
+  title: 第18章 沟通协作与任务推进：理清消息，跟进到结果
+  path: manuscript/capability-coordinate.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - information-triage
+  - meeting
+  - action-items
+  - tracking
+  - coordination
+  - personal-planning
+  - capacity
+  - dependencies
+  facts:
+  - conversation
+  - connector
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: capability-reuse
+  title: 第19章 重复工作与流程复用：留下方法，下次接着用
+  path: manuscript/capability-reuse.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - knowledge-reuse
+  - batch-files
+  - templates
+  - skills
+  - experts
+  - scheduled-tasks
+  facts:
+  - conversation
+  - skills
+  - create-skill
+  - scheduled-task
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: capstone
+  title: 第20章 综合实践：用 WorkBuddy 完成一项真实工作
+  path: manuscript/capstone.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - transfer
+  - integrated-delivery
+  - efficiency-review
+  facts:
+  - create-task
+  - conversation
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: troubleshooting
+  title: 附录A 常见问题排查：任务卡住、结果不对、文件打不开
+  path: manuscript/troubleshooting.md
+  section: appendix
+  depth: 0
+  prerequisites: []
+  features:
+  - troubleshooting
+  - recovery
+  facts:
+  - install-windows
+  - install-mac
+  - conversation
+  - task-modes
+  - permission
+  - file-browser
+  - scheduled-task
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: version-card
+  title: 附录B 日常使用速查：术语、版本与任务入口
+  path: manuscript/version-card.md
+  section: appendix
+  depth: 0
+  prerequisites: []
+  features:
+  - maintenance
+  - version
+  - terminology
+  - task-index
+  facts:
+  - version-navigation
+  - scheduled-task
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+outputs:
+  combined: 全书.md
+  readme: README.md
+  pdf:
+    enabled: false
+    font: Sarasa Gothic SC
+    code_font: Sarasa Mono SC
+    paper: a5
+    profile: standard
+    toc_depth: 1
+    bookmark_depth: 4
+    figure_appendix: false
+  translations:
+    en:
+      enabled: false
+      directory: en
+diagrams:
+- id: FIG-008
+  unit: first-file
+  type: illustration
+  spec: assets/illustrations/FIG-008/brief.yaml
+- id: FIG-007
+  unit: first-screen
+  type: illustration
+  spec: assets/illustrations/FIG-007/brief.yaml
+- id: FIG-010
+  unit: permissions
+  type: illustration
+  spec: assets/illustrations/FIG-010/brief.yaml
+- id: FIG-011
+  unit: results
+  type: illustration
+  spec: assets/illustrations/FIG-011/brief.yaml
+- id: FIG-012
+  unit: reading-guide
+  type: illustration
+  spec: assets/illustrations/FIG-012/brief.yaml
+- id: FIG-018
+  unit: models-modes
+  type: illustration
+  spec: assets/illustrations/FIG-018/brief.yaml
+- id: FIG-019
+  unit: permissions
+  type: illustration
+  spec: assets/illustrations/FIG-019/brief.yaml
+- id: FIG-020
+  unit: running-control
+  type: illustration
+  spec: assets/illustrations/FIG-020/brief.yaml
+- id: FIG-021
+  unit: results
+  type: illustration
+  spec: assets/illustrations/FIG-021/brief.yaml
+- id: FIG-013
+  unit: understand
+  type: illustration
+  spec: assets/illustrations/FIG-013/brief.yaml
+- id: FIG-014
+  unit: understand
+  type: illustration
+  spec: assets/illustrations/FIG-014/brief.yaml
+- id: FIG-015
+  unit: first-file
+  type: illustration
+  spec: assets/illustrations/FIG-015/brief.yaml
+- id: FIG-016
+  unit: materials
+  type: illustration
+  spec: assets/illustrations/FIG-016/brief.yaml
+- id: FIG-017
+  unit: task-brief
+  type: illustration
+  spec: assets/illustrations/FIG-017/brief.yaml
+- id: FIG-022
+  unit: capability-system
+  type: illustration
+  spec: assets/illustrations/FIG-022/brief.yaml
+- id: FIG-023
+  unit: continuity
+  type: illustration
+  spec: assets/illustrations/FIG-023/brief.yaml
+- id: FIG-024
+  unit: troubleshooting
+  type: illustration
+  spec: assets/illustrations/FIG-024/brief.yaml
+- id: FIG-025
+  unit: capability-learn
+  type: illustration
+  spec: assets/illustrations/FIG-025/brief.yaml
+- id: FIG-026
+  unit: capability-write
+  type: illustration
+  spec: assets/illustrations/FIG-026/brief.yaml
+- id: FIG-027
+  unit: capability-data
+  type: illustration
+  spec: assets/illustrations/FIG-027/brief.yaml
+- id: FIG-028
+  unit: capability-data
+  type: illustration
+  spec: assets/illustrations/FIG-028/brief.yaml
+- id: FIG-029
+  unit: capability-present
+  type: illustration
+  spec: assets/illustrations/FIG-029/brief.yaml
+- id: FIG-030
+  unit: capability-think
+  type: illustration
+  spec: assets/illustrations/FIG-030/brief.yaml
+- id: FIG-031
+  unit: capability-coordinate
+  type: illustration
+  spec: assets/illustrations/FIG-031/brief.yaml
+- id: FIG-032
+  unit: capability-reuse
+  type: illustration
+  spec: assets/illustrations/FIG-032/brief.yaml
+- id: FIG-033
+  unit: capstone
+  type: illustration
+  spec: assets/illustrations/FIG-033/brief.yaml
+- id: FIG-034
+  unit: understand
+  type: illustration
+  spec: assets/illustrations/FIG-034/brief.yaml
+- id: FIG-035
+  unit: understand
+  type: illustration
+  spec: assets/illustrations/FIG-035/brief.yaml
+toolkit: 0.1.0
+published:
+  version: null
+  pdf: null
+branding:
+  name: 马力
+  name_en: Ma Li
+  avatar: assets/branding/mali-avatar-v1.svg
+  sha256: fad893d4fc70ecd187eb8c4e0dc3f94e300df69ef87929f64c90d3f86e915945

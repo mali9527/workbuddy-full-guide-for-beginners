@@ -1,0 +1,50 @@
+kind: concept
+form: comparison
+reader_question: 怎样让AI只修改需要改的一处？
+takeaway: 说明具体变化，同时保留关键安排；不必为了练习强行改动可用稿。
+source_sections:
+- 具体反馈，让改稿有边界
+placement: 具体反馈，让改稿有边界
+composition: 上半部两张简洁纸片从左向右：开头背景，用三条长线表示；箭头指向直接说调整，用一条短线表示。下半部是一块独立、宽松的保留区域，顶端写关键安排不动，区域内横排三组大字：时间与地点、期限与提交方式、仅本次调整。三组与保留区域标题用短分支相连，不能与上面的修改箭头混连。六个主对象，上下分区清楚，保留区域不涂阴影、不打锁、不使用软件选择框。
+  所有核心标签至少58px，只有title和labels可以写入图内，不画caption、alt、编号、图例或额外小字。固定notebook-pen-v1方格纸与黑色中性笔，只用黑白中性灰；不画软件窗口、菜单或仿真按钮。
+content_guard: 这是正文假设开头冗长时的反馈例子，不声称WorkBuddy实际输出过这段错误。直接说调整只改变表达，不能更改会议事实或增加承诺。保留区是使用者的工作要求，不是软件强制保护机制；首稿已合用时不必按图重改。
+text_roles:
+  before:
+    role: author
+  after:
+    role: author
+  keep:
+    role: author
+  meeting:
+    role: author
+  submission:
+    role: author
+  scope:
+    role: author
+structure:
+  nodes:
+  - before
+  - after
+  - keep
+  - meeting
+  - submission
+  - scope
+  edges:
+  - - before
+    - after
+  - - keep
+    - meeting
+  - - keep
+    - submission
+  - - keep
+    - scope
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 279dd9225a41006f69cba42e0e8a7fcedf8a79a7b7b4f2b3caa83c4038063784
+  reviewed_by: codex
+  checked_on: '2026-10-04'
+  reason: 具体反馈容易被读者理解成再要求优化一次。用通知开头与不变安排的并置，展示修改边界，能把抽象反馈方法落到当前案例。
+  benefit: 读者会同时说明改哪里、希望改成什么、哪些事实不动，缩小后续核对范围并减少整篇返工。
+labels:
+  zh-CN: labels.zh-CN.yaml

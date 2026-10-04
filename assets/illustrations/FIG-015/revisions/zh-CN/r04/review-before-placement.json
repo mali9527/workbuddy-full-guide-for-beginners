@@ -1,0 +1,16 @@
+{
+  "image_sha256": "a41c6587f45056d99c0f88eb2d81c931d771c2fad8f1d56d7564c678dc07d2fd",
+  "input_fingerprint": "654c10e69a080791dccd446aee837cd92255b08dcab97d58917c71e0fe700ef5",
+  "language": "zh-CN",
+  "reviewer": "codex",
+  "checked_on": "2026-10-05",
+  "content": "pass",
+  "text": "pass",
+  "visual": "pass",
+  "background": "pass",
+  "monochrome": "pass",
+  "structure": "pass",
+  "localization": "pass",
+  "placement": "pending",
+  "notes": "实际查看新生成图：图中文字、分类/箭头、纸笔画风已逐项核对；FIG021移除误入图中的长图注后重看。FIG011以实际看过的官方文件窗口为依据，保留已展开对话状态。机械灰度/画幅校正已获作者授权。阅读位置由离线静态358px校样复核，不代表客户端或浏览器实测。"
+}

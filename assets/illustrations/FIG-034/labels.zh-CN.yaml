@@ -1,0 +1,12 @@
+title: 从零散记录到周报草稿
+caption: WorkBuddy 帮你整理记录、区分状态；你按原记录核对，避免把进行中、待回复写成已经完成。
+alt: 左边是写到一半的说明和等待回复的记录，经过WorkBuddy整理，右边周报草稿分别归入进行中与待人回应；下方拿笔的手提醒按原记录核对。
+labels:
+  records: 零散记录
+  unfinished: 说明写到一半
+  waiting: 还在等回复
+  organize: WorkBuddy整理
+  report: 周报草稿
+  ongoing: 进行中
+  pending: 待人回应
+  check: 你按原记录核对

@@ -1,0 +1,20 @@
+{
+  "image_sha256": "a6ac053a436ee8551fb5bfddd61de6c8867ff071d82166d29fa684004f85cff7",
+  "input_fingerprint": "847cea11a4351136173c5dff1f226a4c35b62058c4bf150abf5327ee45e1ef36",
+  "language": "zh-CN",
+  "reviewer": "codex",
+  "checked_on": "2026-10-04",
+  "content": "pass",
+  "text": "pass",
+  "visual": "pass",
+  "background": "pass",
+  "monochrome": "pass",
+  "structure": "pass",
+  "localization": "pass",
+  "interface": "pass",
+  "placement": "pass",
+  "references": {
+    "UI-WB-created-task-20261004": "c5d204d994b3ad5ec465a9a30ff0e919bbcb05c03f56fed3c39f0d572baac7f6"
+  },
+  "notes": "原截图与图意、文字逐项核对；作者授权后仅做灰度与必要画幅校正。实际查看最终像素及358px静态阅读校样，含完整相应小节文字、图注与全书四图并排对照。离线静态校样不执行HTML，不冒称浏览器或客户端验证。"
+}

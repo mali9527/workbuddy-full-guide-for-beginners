@@ -1,0 +1,42 @@
+kind: concept
+form: relationship
+reader_question: 哪件工作适合作为第一次尝试？
+takeaway: 优先选已有材料、重复动作较多且结果能检查的任务。
+source_sections:
+- 怎样选择第一项值得交出去的工作
+placement: 怎样选择第一项值得交出去的工作
+composition: 上半部横向并列三张宽松纸片，分别写materials、repeat、checkable，每张纸片上方一个小且易辨的手绘物件：材料纸叠、两张同样的小表格、文档和放大镜。不画打勾成功状态。三张纸片彼此没有箭头；各向下画一根汇合连接线，共同进入下方一个较大的手绘圈注choose。三个条件缺一不可的优先选择建议，不画从材料到重复到检查的步骤链。图内中文标签可以换行保持大字；三纸片等大、字号一致，下方圈注留白。放在本节第一段之后。
+  固定notebook-pen-v1细方格纸与黑色中性笔，不透明且只用黑白中性灰。只把title与labels写进图里，禁止caption、alt、编号、版本声明或额外小字。核心标签至少58px，标题约85px，不用密集装饰，不画任何软件窗口或按钮。
+content_guard: 是作者给新手的选题建议，不是WorkBuddy使用资格、硬性功能限制或保证提效的公式。三个条件并列，不表示AI自动检查，也不保证满足后一定省时。效率仍需计入准备、等待、检查与返工。
+text_roles:
+  materials:
+    role: author
+  repeat:
+    role: author
+  checkable:
+    role: author
+  choose:
+    role: author
+structure:
+  nodes:
+  - materials
+  - repeat
+  - checkable
+  - choose
+  edges:
+  - - materials
+    - choose
+  - - repeat
+    - choose
+  - - checkable
+    - choose
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 09e4cccc2f45d4fe0fce59422ea19679a3e2c3c7f240609798a8260a43c5e0eb
+  reviewed_by: codex
+  checked_on: '2026-10-05'
+  reason: 首项任务如何选，适合画成三个并列条件汇合，帮助读者把书中周报替换成自己的工作。
+  benefit: 会挑有材料、重复劳动较多且可验收的任务，理解提效起点不是把一切都交给AI。
+labels:
+  zh-CN: labels.zh-CN.yaml

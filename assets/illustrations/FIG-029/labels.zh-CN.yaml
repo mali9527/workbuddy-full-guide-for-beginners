@@ -1,0 +1,10 @@
+title: 活动、产出与结果
+caption: 参加讨论不能代替交付；发布索引也不能直接证明查找更快。汇报写到材料能够支持的位置。
+alt: 三列分别标活动、产出、结果，对应参加讨论、发布索引、查找更快这一待证问题；列间没有自动推进的箭头。
+labels:
+  activity: 活动
+  activity_example: 参加讨论
+  output: 产出
+  output_example: 发布索引
+  result: 结果
+  result_question: 查找更快？

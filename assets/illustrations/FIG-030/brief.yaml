@@ -1,0 +1,54 @@
+schema_version: 2
+style: notebook-pen-v1
+kind: concept
+form: flow
+reader_question: 怎样知道改说明值得做，而不是只得到一份完整方案？
+takeaway: 先提出有依据的假设，用小试观察，再修订判断；小试不是普遍效果证明。
+source_sections:
+- 从现象到原因，中间还缺一个判断
+- 把推荐缩成下周能试的一个动作
+- 用小试结果修正判断
+placement: 用小试结果修正判断
+composition: 五个主要对象排成宽松的折线：上排从左到右“材料要催补”→“填写要求不清？”→“补说明与示例”；下排从右到左“看还缺哪项”→“修订或换法”。从补说明与示例向下连观察反馈，最后用一条沿外侧的细回箭头指回“填写要求不清？”。现象到原因问句之间用虚线箭头表示提出假设，其他箭头表示分析和试用顺序，不表示因果已证明。五张卡片错落留白，问号不能省略。
+  统一 notebook-pen-v1，保留 1448×1086 不透明细方格纸和黑色中性笔。图内只渲染 title 与 labels，不渲染 caption、alt
+  或构图说明。所有核心字至少 58 px，优先 62—68 px，主标题 70 px；文字分行时只在语义处换行，不拆数字或词。四周至少留 75 px，按 358
+  px 正文宽度检查。
+content_guard: 现象只说明现有记录中有催补，不证明同事态度或能力问题。说明不清是可检验假设之一，不是已确认唯一原因；两人小试只能支持局部改进，不能代表全组或给出省时比例。回箭头表示人依据反馈修订方法，不画成
+  AI 自动选定和推广。 这是作者对正文方法的概念图，不是软件界面、操作实录或 WorkBuddy 已执行成果；不画按钮、成功回执、夸大效率数字或未经提供的新事实。
+text_roles:
+  symptom:
+    role: author
+  hypothesis:
+    role: author
+  trial:
+    role: author
+  observe:
+    role: author
+  revise:
+    role: author
+structure:
+  nodes:
+  - symptom
+  - hypothesis
+  - trial
+  - observe
+  - revise
+  edges:
+  - - symptom
+    - hypothesis
+  - - hypothesis
+    - trial
+  - - trial
+    - observe
+  - - observe
+    - revise
+  - - revise
+    - hypothesis
+analysis:
+  source_sha256: 0ac4717853197a0d83272c28e596d3129848d1306d2da0d59afe8c3eb7468520
+  reviewed_by: Codex（office_thinking_edit，正文全文回读与配图研究）
+  checked_on: '2026-10-04'
+  reason: “反复催补”容易直接跳到培训或归咎同事，图需要在现象与方案之间保留原因假设，并把小试反馈回接到判断。
+  benefit: 把 AI 推荐当作待验证的办法，先用能观察的一处改变检查假设，再决定继续、修订或换法。
+labels:
+  zh-CN: labels.zh-CN.yaml
