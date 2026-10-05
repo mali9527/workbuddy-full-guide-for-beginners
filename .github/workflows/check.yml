@@ -4,6 +4,10 @@ on:
   pull_request:
   push:
 
+env:
+  # Verification dates follow the authoring calendar.
+  TZ: Asia/Tokyo
+
 permissions:
   contents: read
 
